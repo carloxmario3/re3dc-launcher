@@ -57,8 +57,15 @@ RE3DC never distributes them: download them from their authors.
     lines have no subtitles.
 - **Castilian Spanish dub by TTV and REC.** On
   [tiovictor.romhackhispano.org → Resident Evil 3 Nemesis → Descargas](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/),
-  open the **MEGA** or **MEDIAFIRE** folder and download the **PC (GOG)** version:
-  `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` (v1.1). Don't extract it: give the launcher the `.7z` as it is.
+  open the **MEGA** or **MEDIAFIRE** folder. It has one file per console; download **only the one that says `PC_GOG`**:
+
+  | File in the folder | Download? |
+  |---|---|
+  | **`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`** (~129 MB) | ✅ **Yes: this is the one for RE3DC** |
+  | `…_DC_PAL.7z`, `…_NGC_PACKHD.7z`, `…_NGC_PAL.7z`, `…_PSX_NTSCU_DUAL.7z`, `…_PSX_PAL.7z` | ❌ No (Dreamcast, GameCube, PlayStation) |
+  | `Leeme … v1.1.txt`, `LICENSE.TXT` | Optional: the authors' readme and license |
+
+  Don't extract it: give the launcher the `.7z` as it is (box *Castilian dub*).
 
 ## What the launcher downloads
 
@@ -141,8 +148,15 @@ RE3DC nunca las reparte: se bajan de sus autores.
     que lo doblado va sin subtítulos.
 - **Doblaje castellano de TTV y REC.** En
   [tiovictor.romhackhispano.org → Resident Evil 3 Nemesis → Descargas](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/),
-  entra en la carpeta de **MEGA** o de **MEDIAFIRE** y baja la versión de **PC (GOG)**:
-  `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` (v1.1). No lo descomprimas: dale al launcher el `.7z` tal cual.
+  entra en la carpeta de **MEGA** o de **MEDIAFIRE**. Hay un archivo por consola; baja **solo el que dice `PC_GOG`**:
+
+  | Archivo de la carpeta | ¿Bajarlo? |
+  |---|---|
+  | **`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`** (~129 MB) | ✅ **Sí: este es el de RE3DC** |
+  | `…_DC_PAL.7z`, `…_NGC_PACKHD.7z`, `…_NGC_PAL.7z`, `…_PSX_NTSCU_DUAL.7z`, `…_PSX_PAL.7z` | ❌ No (Dreamcast, GameCube, PlayStation) |
+  | `Leeme … v1.1.txt`, `LICENSE.TXT` | Opcional: el léeme y la licencia de los autores |
+
+  No lo descomprimas: dale al launcher el `.7z` tal cual (casilla *Doblaje castellano*).
 
 ## Qué descarga el launcher
 
