@@ -33,6 +33,23 @@ Open **RE3DC**. The launcher has a big **PLAY** button at the top and a step-by-
 The launcher is in English and Spanish (buttons at the top right). Uninstalling removes everything **except your
 saved games**.
 
+## Where to get the optional extras
+
+RE3DC never distributes them: download them from their authors.
+
+- **JuanchoTex HD (HD textures and videos).** The download links are in the author's videos (description and pinned
+  comment):
+  - [Resident Evil 3 Nemesis A.I. Overhaul — Update 1.1](https://www.youtube.com/watch?v=3sUvsibhLOY)
+  - [RE3 Add-on Castellano for A.I. Overhaul 1.1](https://www.youtube.com/watch?v=o0-zQJU04Lg)
+
+  ⚠ For now the launcher uses **A.I. Overhaul 1.0** (`RE3 A.I. Overhaul 1.0 by JTHD.7z`), the version RE3DC's HD is
+  built and checked with. Version **1.1** and the **Add-on Castellano** are recognized but not supported yet: support
+  is coming in a future update.
+- **Castilian Spanish dub by TTV and REC.** On
+  [tiovictor.romhackhispano.org → Resident Evil 3 Nemesis → Descargas](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/),
+  open the **MEGA** or **MEDIAFIRE** folder and download the **PC (GOG)** version:
+  `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` (v1.1). Don't extract it: give the launcher the `.7z` as it is.
+
 ## What the launcher downloads
 
 Only RE3DC's own content, from the [`recursos`](../../releases/tag/recursos) release of **this repository**. The
@@ -93,6 +110,23 @@ Abre **RE3DC**. El launcher tiene arriba un botón grande de **JUGAR** y debajo 
 
 El launcher está en inglés y en español (botones arriba a la derecha). La desinstalación lo borra todo **menos tus
 partidas**.
+
+## Dónde conseguir las mejoras opcionales
+
+RE3DC nunca las reparte: se bajan de sus autores.
+
+- **JuanchoTex HD (texturas y vídeos HD).** Los enlaces de descarga están en los vídeos del autor (descripción y
+  comentario fijado):
+  - [Resident Evil 3 Nemesis A.I. Overhaul — Update 1.1](https://www.youtube.com/watch?v=3sUvsibhLOY)
+  - [RE3 Add-on Castellano para A.I. Overhaul 1.1](https://www.youtube.com/watch?v=o0-zQJU04Lg)
+
+  ⚠ Por ahora el launcher usa **A.I. Overhaul 1.0** (`RE3 A.I. Overhaul 1.0 by JTHD.7z`), la versión con la que está
+  hecho y comprobado el HD de RE3DC. La **1.1** y el **Add-on Castellano** se reconocen, pero aún no se admiten:
+  llegarán en una actualización próxima.
+- **Doblaje castellano de TTV y REC.** En
+  [tiovictor.romhackhispano.org → Resident Evil 3 Nemesis → Descargas](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/),
+  entra en la carpeta de **MEGA** o de **MEDIAFIRE** y baja la versión de **PC (GOG)**:
+  `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` (v1.1). No lo descomprimas: dale al launcher el `.7z` tal cual.
 
 ## Qué descarga el launcher
 
