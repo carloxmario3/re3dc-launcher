@@ -1,5 +1,12 @@
 # RE3DC Launcher
 
+<p align="center">
+  <a href="https://github.com/carloxmario3/re3dc-launcher/releases/latest/download/RE3DC-setup.exe"><b>⬇ DOWNLOAD RE3DC FOR WINDOWS (installer)</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/carloxmario3/re3dc-launcher/releases/latest/download/RE3DC-setup.exe"><b>⬇ DESCARGAR RE3DC PARA WINDOWS (instalador)</b></a>
+  <br><sub>Windows 10/11 · 64-bit · ~108 MB · always the latest version / siempre la última versión</sub>
+</p>
+
 **English** · [Español](#español)
 
 RE3DC is *Resident Evil 3: Nemesis* (1999, PC) rebuilt from its decompiled code, running natively on modern Windows,
@@ -13,8 +20,9 @@ and builds everything on your PC.
 
 ## Download
 
-Go to [**Releases**](../../releases) and download `RE3DC-…-setup.exe` (Windows 10/11, 64-bit, OpenGL 2.1).
-It installs for your user only (no administrator rights) and adds an **RE3DC** shortcut. The executables are not
+**[⬇ Download the installer (RE3DC-setup.exe)](https://github.com/carloxmario3/re3dc-launcher/releases/latest/download/RE3DC-setup.exe)**
+— always the latest version (Windows 10/11, 64-bit, OpenGL 2.1). Older versions and the SHA-256 are in
+[**Releases**](../../releases). Once installed, the launcher updates itself. It installs for your user only (no administrator rights) and adds an **RE3DC** shortcut. The executables are not
 signed yet: if SmartScreen warns you, choose *More info → Run anyway*. Each release lists its SHA-256.
 
 ## How it works
@@ -95,7 +103,9 @@ y lo arma todo en tu PC.
 
 ## Descarga
 
-En [**Releases**](../../releases) baja `RE3DC-…-setup.exe` (Windows 10/11 de 64 bits, OpenGL 2.1). Se instala solo
+**[⬇ Descargar el instalador (RE3DC-setup.exe)](https://github.com/carloxmario3/re3dc-launcher/releases/latest/download/RE3DC-setup.exe)**
+— siempre la última versión (Windows 10/11 de 64 bits, OpenGL 2.1). Las versiones anteriores y el SHA-256 están en
+[**Releases**](../../releases). Una vez instalado, el launcher se actualiza solo. Se instala solo
 para tu usuario (sin permisos de administrador) y deja un acceso **RE3DC**. Los ejecutables aún no están firmados: si
 SmartScreen avisa, «Más información → Ejecutar de todas formas». Cada versión trae su SHA-256.
 
