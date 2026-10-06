@@ -50,7 +50,6 @@ saved games**.
 | HD textures | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (or 1.0) | `Downloads` |
 | Spanish add-on (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Downloads` |
 | Castilian dub (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Downloads` |
-| RE3 (2020) Jill (advanced) | the Steam game + **Blender 5.2** | `C:\Program Files (x86)\Steam\steamapps\common\RE3` · Blender: `C:\Program Files\Blender Foundation\Blender 5.2` |
 
 > ⚠ GOG installers contain several languages: if you **install** the game, choose **«Español»** as the installer's
 > language, otherwise you get the English copy again (in another folder). The launcher detects it and tells you.
@@ -156,7 +155,6 @@ partidas**.
 | Texturas HD | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (o la 1.0) | `Descargas` |
 | Addon castellano (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Descargas` |
 | Doblaje castellano (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Descargas` |
-| Jill del RE3 (2020) (avanzado) | el juego de Steam + **Blender 5.2** | `C:\Program Files (x86)\Steam\steamapps\common\RE3` · Blender: `C:\Program Files\Blender Foundation\Blender 5.2` |
 
 > ⚠ Los instaladores de GOG traen varios idiomas: si **instalas** el juego, elige **«Español»** en el idioma del
 > instalador; si no, vuelves a tener la copia inglesa (en otra carpeta). El launcher lo detecta y te lo dice.
