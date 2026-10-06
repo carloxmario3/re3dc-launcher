@@ -3,8 +3,9 @@
 **English** · [Español](#español)
 
 RE3DC is *Resident Evil 3: Nemesis* (1999, PC) rebuilt from its decompiled code, running natively on modern Windows,
-in English and Spanish, with optional HD textures and dubs. It is a non-commercial fan project, not affiliated with or
-endorsed by Capcom.
+in English and Spanish, with optional HD textures and dubs. The decompilation was done by **Llamix Tec**
+([YouTube](https://www.youtube.com/@Llamix-Tec)). It is a non-commercial fan project, not affiliated with or endorsed
+by Capcom.
 
 **No game files are included.** You need **your own copy of Resident Evil 3 from GOG** (English and/or Spanish).
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
@@ -46,6 +47,8 @@ launcher and the game do not contact any other server, and there is no telemetry
 
 ## Credits
 
+- Decompilation, ports and launcher: **Llamix Tec** — YouTube channel:
+  [youtube.com/@Llamix-Tec](https://www.youtube.com/@Llamix-Tec)
 - HD textures and videos: **JuanchoTex HD (JTHD)**, *RE3 A.I. Overhaul 1.0*, built on RE:Enhance by SonicBOOM and
   TeamX's mask tools. You bring the author's download; RE3DC converts it on your PC.
 - Castilian Spanish dub: **Traducciones del Tío Víctor and Resident Evil Castellano** (project by IlDucci). Fan-made
@@ -62,8 +65,8 @@ material: only this description, the installer and RE3DC's own content.
 ## Español
 
 RE3DC es *Resident Evil 3: Nemesis* (1999, PC) reconstruido desde su código decompilado, nativo en el Windows de hoy,
-en inglés y en español, con texturas HD y doblajes opcionales. Es un proyecto de fans sin ánimo de lucro, sin relación
-con Capcom.
+en inglés y en español, con texturas HD y doblajes opcionales. La decompilación la hizo **Llamix Tec**
+([YouTube](https://www.youtube.com/@Llamix-Tec)). Es un proyecto de fans sin ánimo de lucro, sin relación con Capcom.
 
 **No trae ningún archivo del juego.** Hace falta **tu copia de Resident Evil 3 de GOG** (en inglés y/o en español).
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
@@ -105,6 +108,8 @@ el launcher ni el juego se conectan a ningún otro servidor, y no hay telemetrí
 
 ## Créditos
 
+- Decompilación, ports y launcher: **Llamix Tec** — canal de YouTube:
+  [youtube.com/@Llamix-Tec](https://www.youtube.com/@Llamix-Tec)
 - Texturas y vídeos HD: **JuanchoTex HD (JTHD)**, *RE3 A.I. Overhaul 1.0*, sobre RE:Enhance de SonicBOOM y las
   herramientas de máscaras de TeamX. Tú aportas la descarga del autor; RE3DC la convierte en tu PC.
 - Doblaje castellano: **Traducciones del Tío Víctor y Resident Evil Castellano** (proyecto de IlDucci). Hecho por fans
