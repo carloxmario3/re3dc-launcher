@@ -48,8 +48,8 @@ saved games**.
 | **Resident Evil 3 from GOG, English** (required, or the Spanish one) | the installed folder (with `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **or** its offline installer `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Downloads` |
 | **Resident Evil 3 from GOG, Spanish** (to play in Spanish) | **easiest:** the offline installer `setup_resident_evil_3_1.0_hotfix4_(spanish)_(86848).exe` + `…-1.bin` (the launcher extracts the Spanish copy, no install needed) **or** a folder installed **choosing «Español»** in the installer (it also has `Rofs16.dat`) | `Downloads` (GOG.com → your library → Resident Evil 3 → offline installers, Spanish) |
 | HD textures | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (or 1.0) | `Downloads` |
+| Spanish add-on (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Downloads` |
 | Castilian dub (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Downloads` |
-| Doblaje Spain | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Downloads` |
 | RE3 (2020) Jill (advanced) | the Steam game + **Blender 5.2** | `C:\Program Files (x86)\Steam\steamapps\common\RE3` · Blender: `C:\Program Files\Blender Foundation\Blender 5.2` |
 
 > ⚠ GOG installers contain several languages: if you **install** the game, choose **«Español»** as the installer's
@@ -66,7 +66,7 @@ RE3DC never distributes them: download them from their authors.
   - [RE3 Add-on Castellano for A.I. Overhaul 1.1](https://www.youtube.com/watch?v=o0-zQJU04Lg)
 
   - **A.I. Overhaul 1.1** (`RE3 A.I. OVERHAUL 1.1 by JTHD.7z`, recommended) or 1.0: put it in *HD textures*.
-  - **Add-on Castellano** (`RE3 ADD-ON CASTELLANO by JTHD.7z`): put it in *Doblaje Spain* (needs your Spanish GOG copy).
+  - **Add-on Castellano** (`RE3 ADD-ON CASTELLANO by JTHD.7z`): put it in *Spanish add-on* (needs your Spanish GOG copy).
     RE3DC takes its Spanish voices and dubbed movies by **Doblaje Spain (JuanLuGames)**; in the game, choose
     *Options → Voices → Spanish (Doblaje Spain)*. Its translation differs from the game's Spanish texts, so the dubbed
     lines have no subtitles.
@@ -154,8 +154,8 @@ partidas**.
 | **Resident Evil 3 de GOG, inglés** (obligatorio, o el español) | la carpeta instalada (con `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **o** su instalador offline `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Descargas` |
 | **Resident Evil 3 de GOG, español** (para jugar en español) | **lo más fácil:** el instalador offline `setup_resident_evil_3_1.0_hotfix4_(spanish)_(86848).exe` + `…-1.bin` (el launcher saca de él la copia española, sin instalar nada) **o** una carpeta instalada **eligiendo «Español»** en el instalador (trae además `Rofs16.dat`) | `Descargas` (GOG.com → tu biblioteca → Resident Evil 3 → instaladores offline, español) |
 | Texturas HD | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (o la 1.0) | `Descargas` |
+| Addon castellano (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Descargas` |
 | Doblaje castellano (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Descargas` |
-| Doblaje Spain | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Descargas` |
 | Jill del RE3 (2020) (avanzado) | el juego de Steam + **Blender 5.2** | `C:\Program Files (x86)\Steam\steamapps\common\RE3` · Blender: `C:\Program Files\Blender Foundation\Blender 5.2` |
 
 > ⚠ Los instaladores de GOG traen varios idiomas: si **instalas** el juego, elige **«Español»** en el idioma del
@@ -172,7 +172,7 @@ RE3DC nunca las reparte: se bajan de sus autores.
   - [RE3 Add-on Castellano para A.I. Overhaul 1.1](https://www.youtube.com/watch?v=o0-zQJU04Lg)
 
   - **A.I. Overhaul 1.1** (`RE3 A.I. OVERHAUL 1.1 by JTHD.7z`, recomendada) o la 1.0: va en *Texturas HD*.
-  - **Add-on Castellano** (`RE3 ADD-ON CASTELLANO by JTHD.7z`): va en *Doblaje Spain* (necesita tu GOG en español).
+  - **Add-on Castellano** (`RE3 ADD-ON CASTELLANO by JTHD.7z`): va en *Addon castellano* (necesita tu GOG en español).
     RE3DC toma sus voces y películas dobladas al castellano por **Doblaje Spain (JuanLuGames)**; en el juego, elige
     *Opciones → Voces → Castellano (Doblaje Spain)*. Su traducción no es la de los textos en español del juego, así
     que lo doblado va sin subtítulos.
