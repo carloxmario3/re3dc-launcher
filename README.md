@@ -41,6 +41,21 @@ Open **RE3DC**. The launcher has a big **PLAY** button at the top and a step-by-
 The launcher is in English and Spanish (buttons at the top right). Uninstalling removes everything **except your
 saved games**.
 
+## Files you need and where they usually are
+
+| What | File / folder | Usual place |
+|---|---|---|
+| **Resident Evil 3 from GOG, English** (required, or the Spanish one) | the installed folder (with `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **or** its offline installer `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Downloads` |
+| **Resident Evil 3 from GOG, Spanish** (to play in Spanish) | **easiest:** the offline installer `setup_resident_evil_3_1.0_hotfix4_(spanish)_(86848).exe` + `…-1.bin` (the launcher extracts the Spanish copy, no install needed) **or** a folder installed **choosing «Español»** in the installer (it also has `Rofs16.dat`) | `Downloads` (GOG.com → your library → Resident Evil 3 → offline installers, Spanish) |
+| HD textures | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (or 1.0) | `Downloads` |
+| Castilian dub (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Downloads` |
+| Doblaje Spain | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Downloads` |
+| RE3 (2020) Jill (advanced) | the Steam game + **Blender 5.2** | `C:\Program Files (x86)\Steam\steamapps\common\RE3` · Blender: `C:\Program Files\Blender Foundation\Blender 5.2` |
+
+> ⚠ GOG installers contain several languages: if you **install** the game, choose **«Español»** as the installer's
+> language, otherwise you get the English copy again (in another folder). The launcher detects it and tells you.
+> Don't extract the `.7z` files: give the launcher the `.7z` as it is.
+
 ## Where to get the optional extras
 
 RE3DC never distributes them: download them from their authors.
@@ -131,6 +146,21 @@ Abre **RE3DC**. El launcher tiene arriba un botón grande de **JUGAR** y debajo 
 
 El launcher está en inglés y en español (botones arriba a la derecha). La desinstalación lo borra todo **menos tus
 partidas**.
+
+## Qué archivos hacen falta y dónde suelen estar
+
+| Qué | Archivo / carpeta | Dónde suele estar |
+|---|---|---|
+| **Resident Evil 3 de GOG, inglés** (obligatorio, o el español) | la carpeta instalada (con `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **o** su instalador offline `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Descargas` |
+| **Resident Evil 3 de GOG, español** (para jugar en español) | **lo más fácil:** el instalador offline `setup_resident_evil_3_1.0_hotfix4_(spanish)_(86848).exe` + `…-1.bin` (el launcher saca de él la copia española, sin instalar nada) **o** una carpeta instalada **eligiendo «Español»** en el instalador (trae además `Rofs16.dat`) | `Descargas` (GOG.com → tu biblioteca → Resident Evil 3 → instaladores offline, español) |
+| Texturas HD | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (o la 1.0) | `Descargas` |
+| Doblaje castellano (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Descargas` |
+| Doblaje Spain | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Descargas` |
+| Jill del RE3 (2020) (avanzado) | el juego de Steam + **Blender 5.2** | `C:\Program Files (x86)\Steam\steamapps\common\RE3` · Blender: `C:\Program Files\Blender Foundation\Blender 5.2` |
+
+> ⚠ Los instaladores de GOG traen varios idiomas: si **instalas** el juego, elige **«Español»** en el idioma del
+> instalador; si no, vuelves a tener la copia inglesa (en otra carpeta). El launcher lo detecta y te lo dice.
+> No descomprimas los `.7z`: dale al launcher el `.7z` tal cual.
 
 ## Dónde conseguir las mejoras opcionales
 
