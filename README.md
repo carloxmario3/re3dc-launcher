@@ -59,6 +59,27 @@ Then:
 Requirements: an arm64 phone or tablet with Android 8 or newer. The app updates itself from this repository and
 sends nothing anywhere. The zip contains your own game files: it is just for you, don't share it.
 
+## Steam Deck and Linux
+
+Install RE3DC on your Windows PC first. Then, on the launcher's main screen, press **Steam Deck** or **Linux** and pick
+where to leave it: a USB drive, a microSD card or a folder.
+
+It creates a `RE3DC` folder with:
+- **the game for Linux**: `RE3DC-linux-*-x86_64.AppImage`, from the [`linux-*` releases](../../releases) of this
+  repository (native x86_64, OpenGL 3.3 and SDL2; no telemetry, no network);
+- **the Linux launcher** (`re3dc-launcher`): PLAY, install and «Add to Steam» with artwork, usable with a controller;
+- **your `re3dc-completo.zip`**, rebuilt from what you have installed on the PC, with every file checked;
+- a README (`LEEME-STEAMDECK.txt` or `LEEME-LINUX.txt`) with the steps.
+
+On the Steam Deck:
+1. Copy the whole `RE3DC` folder to `/home/deck/RE3DC` and switch to Desktop Mode.
+2. Open `re3dc-launcher` (if it won't start: Properties → Permissions → «Is executable») and press **Install**: the
+   game offers «Install the package next to the game». Pick it with the controller.
+3. Press **Add to Steam**, go back to Game Mode and find «Resident Evil 3 DC» under «Non-Steam».
+
+On a Linux PC it's the same: copy the folder (for example to `~/RE3DC`), `chmod +x` the launcher and the AppImage, and
+open the launcher.
+
 ## PS5 (jailbroken consoles)
 
 Install RE3DC on your PC first. Then, on the launcher's main screen, press **PS5** and pick your **exFAT USB drive**.
@@ -200,6 +221,27 @@ Luego:
 
 Requisitos: un teléfono o tableta arm64 con Android 8 o superior. La app se actualiza sola desde este repositorio y
 no manda nada a ningún sitio. El zip lleva tus archivos del juego: es solo para ti, no lo compartas.
+
+## Steam Deck y Linux
+
+Primero instala RE3DC en tu PC con Windows. Después, en la pantalla principal del launcher, pulsa **Steam Deck** o
+**Linux** y elige dónde dejarlo: un USB, una tarjeta microSD o una carpeta.
+
+Se crea una carpeta `RE3DC` con:
+- **el juego para Linux**: `RE3DC-linux-*-x86_64.AppImage`, de las [versiones `linux-*`](../../releases) de este
+  repositorio (nativo x86_64, OpenGL 3.3 y SDL2; sin telemetría ni red);
+- **el launcher de Linux** (`re3dc-launcher`): JUGAR, instalar y «Añadir a Steam» con carátulas, se maneja con el mando;
+- **tu `re3dc-completo.zip`**, rearmado con lo que tienes instalado en el PC, con cada archivo comprobado;
+- un LEEME (`LEEME-STEAMDECK.txt` o `LEEME-LINUX.txt`) con los pasos.
+
+En la Steam Deck:
+1. Copia la carpeta `RE3DC` entera a `/home/deck/RE3DC` y cambia al modo Escritorio.
+2. Abre `re3dc-launcher` (si no se abre: Propiedades → Permisos → «Es ejecutable») y pulsa **Instalar**: el juego ofrece
+   «Install the package next to the game». Elígelo con el mando.
+3. Pulsa **Añadir a Steam**, vuelve al modo Juego y busca «Resident Evil 3 DC» en «No de Steam».
+
+En un PC con Linux es igual: copia la carpeta (por ejemplo a `~/RE3DC`), dale `chmod +x` al launcher y al AppImage, y
+abre el launcher.
 
 ## PS5 (consolas liberadas)
 
