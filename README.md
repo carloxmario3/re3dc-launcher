@@ -41,6 +41,24 @@ Open **RE3DC**. The launcher has a big **PLAY** button at the top and a step-by-
 The launcher is in English and Spanish (buttons at the top right). Uninstalling removes everything **except your
 saved games**.
 
+## Android
+
+Install RE3DC on your PC first. Then, on the launcher's main screen, press **Android** (under «Prepare a package for
+other systems»).
+
+It creates a `RE3DC-Android` folder on your desktop with three things:
+- **the app**: the APK, downloaded from the [`android-*` releases](../../releases) of this repository;
+- **your `re3dc-completo.zip`**: rebuilt from what you have installed on the PC, with every file checked;
+- **`LEEME-ANDROID.txt`**, with the steps.
+
+Then:
+1. Install the APK on your phone.
+2. Copy the zip to the phone's Downloads folder.
+3. Open RE3DC and choose **«Instalar el paquete completo»** (the app is in Spanish).
+
+Requirements: an arm64 phone or tablet with Android 8 or newer. The app updates itself from this repository and
+sends nothing anywhere. The zip contains your own game files: it is just for you, don't share it.
+
 ## Files you need and where they usually are
 
 | What | File / folder | Usual place |
@@ -145,6 +163,24 @@ Abre **RE3DC**. El launcher tiene arriba un botón grande de **JUGAR** y debajo 
 
 El launcher está en inglés y en español (botones arriba a la derecha). La desinstalación lo borra todo **menos tus
 partidas**.
+
+## Android
+
+Primero instala RE3DC en tu PC. Después, en la pantalla principal del launcher, pulsa **Android** (en «Preparar
+paquete para otros sistemas»).
+
+Se crea una carpeta `RE3DC-Android` en tu escritorio con tres cosas:
+- **la app**: el APK, bajado de las versiones [`android-*`](../../releases) de este repositorio;
+- **tu `re3dc-completo.zip`**: rearmado con lo que tienes instalado en el PC, comprobando cada archivo;
+- **`LEEME-ANDROID.txt`**, con los pasos.
+
+Luego:
+1. Instala el APK en el teléfono.
+2. Copia el zip a Descargas del teléfono.
+3. Abre RE3DC y elige **«Instalar el paquete completo»**.
+
+Requisitos: un teléfono o tableta arm64 con Android 8 o superior. La app se actualiza sola desde este repositorio y
+no manda nada a ningún sitio. El zip lleva tus archivos del juego: es solo para ti, no lo compartas.
 
 ## Qué archivos hacen falta y dónde suelen estar
 
