@@ -59,6 +59,25 @@ Then:
 Requirements: an arm64 phone or tablet with Android 8 or newer. The app updates itself from this repository and
 sends nothing anywhere. The zip contains your own game files: it is just for you, don't share it.
 
+## PS5 (jailbroken consoles)
+
+Install RE3DC on your PC first. Then, on the launcher's main screen, press **PS5** and pick your **exFAT USB drive**.
+
+It puts on the drive:
+- **the RE3DC title** in `homebrew\PPSA99330`, downloaded from the [`ps5-*` releases](../../releases) of this repository;
+- **your `re3dc-completo.zip`** in `RE3DC-PS5`, rebuilt from what you have installed on the PC, with every file checked;
+- **the copier** (`re3dc-copiador.elf`) and **`LEEME-PS5.txt`**, with the steps.
+
+Then:
+1. Plug the USB into the PS5 with the jailbreak loaded (etaHEN + kstuff, elfldr, FTP and ShadowMount+). The RE3DC
+   title shows up in the menu.
+2. In the launcher, press **Send the copier to the PS5**: it finds the console on your local network and the copier
+   installs your package on it (a few minutes; it shows its progress on the TV).
+3. Open RE3DC on the PS5. Always quit in order: START → «Quit the game», then close the title.
+
+Tested on firmware 13.40. The title is GPL-3.0 (it uses ps5-opengl); its source is offered on request: see
+`THIRD_PARTY_NOTICES.md` in the release. The zip contains your own game files: it is just for you, don't share it.
+
 ## Files you need and where they usually are
 
 | What | File / folder | Usual place |
@@ -102,7 +121,7 @@ RE3DC never distributes them: download them from their authors.
 ## What the launcher downloads
 
 Only RE3DC's own content, from the [`recursos`](../../releases/tag/recursos) release of **this repository**. The
-launcher and the game do not contact any other server, and there is no telemetry.
+launcher and the game do not contact any other server (except your own PS5 on your local network, when you ask), and there is no telemetry.
 
 | Package | What it is |
 |---|---|
@@ -182,6 +201,26 @@ Luego:
 Requisitos: un teléfono o tableta arm64 con Android 8 o superior. La app se actualiza sola desde este repositorio y
 no manda nada a ningún sitio. El zip lleva tus archivos del juego: es solo para ti, no lo compartas.
 
+## PS5 (consolas liberadas)
+
+Primero instala RE3DC en tu PC. Después, en la pantalla principal del launcher, pulsa **PS5** y elige tu **USB en
+exFAT**.
+
+En el USB deja:
+- **el título RE3DC** en `homebrew\PPSA99330`, bajado de las [versiones `ps5-*`](../../releases) de este repositorio;
+- **tu `re3dc-completo.zip`** en `RE3DC-PS5`, rearmado con lo que tienes instalado en el PC, con cada archivo comprobado;
+- **el copiador** (`re3dc-copiador.elf`) y **`LEEME-PS5.txt`**, con los pasos.
+
+Después:
+1. Conecta el USB a la PS5 con el jailbreak cargado (etaHEN + kstuff, elfldr, FTP y ShadowMount+). El título RE3DC
+   aparece en el menú.
+2. En el launcher, pulsa **Mandar el copiador a la PS5**: encuentra la consola en tu red local y el copiador instala
+   tu paquete en ella (unos minutos; muestra el avance en la tele).
+3. Abre RE3DC en la PS5. Sal siempre en orden: START → «Salir del juego» y después cierra el título.
+
+Probado en el firmware 13.40. El título es GPL-3.0 (usa ps5-opengl); su código fuente se entrega a quien lo pida: mira
+`THIRD_PARTY_NOTICES.md` en la versión. El zip lleva tus propios archivos del juego: es solo para ti, no lo compartas.
+
 ## Qué archivos hacen falta y dónde suelen estar
 
 | Qué | Archivo / carpeta | Dónde suele estar |
@@ -225,7 +264,8 @@ RE3DC nunca las reparte: se bajan de sus autores.
 ## Qué descarga el launcher
 
 Solo el contenido propio de RE3DC, de la versión [`recursos`](../../releases/tag/recursos) de **este repositorio**. Ni
-el launcher ni el juego se conectan a ningún otro servidor, y no hay telemetría.
+el launcher ni el juego se conectan a ningún otro servidor (salvo a tu propia PS5 en tu red local, cuando lo pides), y no
+hay telemetría.
 
 | Paquete | Qué es |
 |---|---|
