@@ -4,7 +4,7 @@
   <a href="https://github.com/carloxmario3/re3dc-launcher/releases/latest/download/RE3DC-setup.exe"><b>⬇ DOWNLOAD RE3DC FOR WINDOWS (installer)</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/carloxmario3/re3dc-launcher/releases/latest/download/RE3DC-setup.exe"><b>⬇ DESCARGAR RE3DC PARA WINDOWS (instalador)</b></a>
-  <br><sub>Windows 10/11 · 64-bit · ~108 MB · always the latest version / siempre la última versión</sub>
+  <br><sub>Windows 10/11 · 64-bit · ~105 MB · always the latest version / siempre la última versión</sub>
 </p>
 
 **English** · [Español](#español)
@@ -17,6 +17,22 @@ by Capcom.
 **No game files are included.** You need **your own copy of Resident Evil 3 from GOG** (English and/or Spanish).
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
+
+## What's new (game 0.2.6 · launcher 0.2.13)
+
+- **16:9 camera panning** (like Fusion Fix): the picture fills a wide screen and follows Jill up and down; menus, the
+  inventory and cutscenes go back to the whole 4:3 picture. On by default (*Options → Widescreen*).
+- **Three Jills** (*Options → Jill*): **Original**; **HD**, the 1999 model smoothed with 4x textures, made on your PC
+  from your own GOG copy; and **Remake**, the *Resident Evil 3 (2020)* model imported from **your own Steam copy**, with
+  our animations and the weapon always in her hand.
+- **HD characters** (*Options → Characters*): zombies, Carlos, Nikolai, Nemesis and the rest, the 1999 designs smoothed
+  with the game's own lighting; and the **Remake characters**, the RE3 (2020) models moving with the original
+  animations.
+- Our own font for the title menu, the Options screen and the in-game menu (START), HD icons in inventory slots 7 and
+  8, and «Back to the title» in the in-game menu.
+
+> **For now we are focusing on the Windows version**, to put all our effort into making everything better. Once it is
+> stable, we will bring it step by step to Android, PS5, Steam Deck and Linux. Sorry for the wait!
 
 ## Download
 
@@ -34,70 +50,18 @@ Open **RE3DC**. The launcher has a big **PLAY** button at the top and a step-by-
 2. **Optional extras** — the HD textures and videos of *RE3 A.I. Overhaul 1.1 by JuanchoTex HD* (the `.7z` you
    downloaded from the author; 1.0 also works), his *Add-on Castellano* (Doblaje Spain), the Castilian Spanish dub by TTV and REC (`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`, from
    [their site](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/)), and RE3DC's own content.
-3. **Review** — what will be installed and the disk space it needs. Optionally, also save the package `.zip` for
-   your other devices.
+   **Jill and characters:** *HD Jill (1999)* and *HD characters* are made from your GOG copy; *RE3 (2020) Jill* and
+   *RE3 (2020) characters* need your **Steam copy of Resident Evil 3 (2020)** (the launcher finds its folder).
+3. **Review** — what will be installed and the disk space it needs.
 4. **Install** — every file is checked; then **PLAY** turns on.
 
 The launcher is in English and Spanish (buttons at the top right). Uninstalling removes everything **except your
 saved games**.
 
-## Android
+## Other systems
 
-Install RE3DC on your PC first. Then, on the launcher's main screen, press **Android** (under «Prepare a package for
-other systems»).
-
-It creates a `RE3DC-Android` folder on your desktop with three things:
-- **the app**: the APK, downloaded from the [`android-*` releases](../../releases) of this repository;
-- **your `re3dc-completo.zip`**: rebuilt from what you have installed on the PC, with every file checked;
-- **`LEEME-ANDROID.txt`**, with the steps.
-
-Then:
-1. Install the APK on your phone.
-2. Copy the zip to the phone's Downloads folder.
-3. Open RE3DC and choose **«Instalar el paquete completo»** (the app is in Spanish).
-
-Requirements: an arm64 phone or tablet with Android 8 or newer. The app updates itself from this repository and
-sends nothing anywhere. The zip contains your own game files: it is just for you, don't share it.
-
-## Steam Deck and Linux
-
-Install RE3DC on your Windows PC first. Then, on the launcher's main screen, press **Steam Deck** or **Linux** and pick
-where to leave it: a USB drive, a microSD card or a folder.
-
-It creates a `RE3DC` folder with:
-- **the game for Linux**: `RE3DC-linux-*-x86_64.AppImage`, from the [`linux-*` releases](../../releases) of this
-  repository (native x86_64, OpenGL 3.3 and SDL2; no telemetry, no network);
-- **the Linux launcher** (`re3dc-launcher`): PLAY, install and «Add to Steam» with artwork, usable with a controller;
-- **your `re3dc-completo.zip`**, rebuilt from what you have installed on the PC, with every file checked;
-- a README (`LEEME-STEAMDECK.txt` or `LEEME-LINUX.txt`) with the steps.
-
-On the Steam Deck:
-1. Copy the whole `RE3DC` folder to `/home/deck/RE3DC` and switch to Desktop Mode.
-2. Open `re3dc-launcher` (if it won't start: Properties → Permissions → «Is executable») and press **Install**: the
-   game offers «Install the package next to the game». Pick it with the controller.
-3. Press **Add to Steam**, go back to Game Mode and find «Resident Evil 3 DC» under «Non-Steam».
-
-On a Linux PC it's the same: copy the folder (for example to `~/RE3DC`), `chmod +x` the launcher and the AppImage, and
-open the launcher.
-
-## PS5 (jailbroken consoles)
-
-Install RE3DC on your PC first. Then, on the launcher's main screen, press **PS5** and pick your **exFAT USB drive**.
-
-It puts on the drive:
-- **the RE3DC title** in `homebrew\PPSA99330`, downloaded from the [`ps5-*` releases](../../releases) of this repository;
-- **your `re3dc-completo.zip`** in `RE3DC-PS5`, rebuilt from what you have installed on the PC, with every file checked;
-- **the copier** (`re3dc-copiador.elf`) and **`LEEME-PS5.txt`**, with the steps.
-
-Then:
-1. Plug the USB into the PS5 with the jailbreak loaded (etaHEN + kstuff, elfldr, FTP and ShadowMount+). The RE3DC
-   title shows up in the menu.
-2. In the launcher, press **Send the copier to the PS5**: it finds the console on your local network and the copier
-   installs your package on it (a few minutes; it shows its progress on the TV).
-3. Open RE3DC on the PS5. Always quit in order: START → «Quit the game», then close the title.
-
-Tested on firmware 13.40. The title is GPL-3.0 (it uses ps5-opengl); its source is offered on request: see
-`THIRD_PARTY_NOTICES.md` in the release. The zip contains your own game files: it is just for you, don't share it.
+For now only Windows (see above). The earlier Android, PS5 and Linux / Steam Deck builds are still in
+[Releases](../../releases), without the new features.
 
 ## Files you need and where they usually are
 
@@ -108,6 +72,7 @@ Tested on firmware 13.40. The title is GPL-3.0 (it uses ps5-opengl); its source 
 | HD textures | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (or 1.0) | `Downloads` |
 | Spanish add-on (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Downloads` |
 | Castilian dub (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Downloads` |
+| RE3 (2020) Jill and characters | your Steam **Resident Evil 3** (2020) folder (with `re_chunk_000.pak`) | `C:\Program Files (x86)\Steam\steamapps\common\RE3` |
 
 > ⚠ GOG installers contain several languages: if you **install** the game, choose **«Español»** as the installer's
 > language, otherwise you get the English copy again (in another folder). The launcher detects it and tells you.
@@ -142,7 +107,7 @@ RE3DC never distributes them: download them from their authors.
 ## What the launcher downloads
 
 Only RE3DC's own content, from the [`recursos`](../../releases/tag/recursos) release of **this repository**. The
-launcher and the game do not contact any other server (except your own PS5 on your local network, when you ask), and there is no telemetry.
+launcher and the game do not contact any other server and there is no telemetry.
 
 | Package | What it is |
 |---|---|
@@ -180,6 +145,23 @@ en inglés y en español, con texturas HD y doblajes opcionales. La decompilaci�
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
+## Novedades (juego 0.2.6 · launcher 0.2.13)
+
+- **Paneo de cámara 16:9** (como Fusion Fix): la imagen llena una pantalla ancha y sigue a Jill hacia arriba y hacia
+  abajo; los menús, el inventario y las escenas vuelven al 4:3 entero. Encendido por defecto (*Opciones → Pantalla
+  ancha*).
+- **Tres Jill** (*Opciones → Jill*): la **Original**; la **HD**, el modelo de 1999 suavizado y con texturas a 4x, hecho en
+  tu PC desde tu propia copia de GOG; y la del **Remake**, el modelo de *Resident Evil 3 (2020)* importado de **tu propia
+  copia de Steam**, con nuestras animaciones y el arma siempre en la mano.
+- **Personajes HD** (*Opciones → Personajes*): zombis, Carlos, Nikolai, Nemesis y los demás, con los diseños de 1999
+  suavizados y la luz del propio juego; y los **personajes del Remake**, los modelos del RE3 (2020) con las animaciones
+  originales.
+- Letra propia en el menú del título, en Opciones y en el menú de la partida (START), iconos HD en las casillas 7 y 8 del
+  inventario y «Volver al título» en el menú de la partida.
+
+> **Por ahora nos enfocamos en la versión de Windows**, para concentrar el esfuerzo en mejorarlo todo. Cuando esté
+> estable, la llevaremos poco a poco a Android, PS5, Steam Deck y Linux. ¡Perdón por la espera!
+
 ## Descarga
 
 **[⬇ Descargar el instalador (RE3DC-setup.exe)](https://github.com/carloxmario3/re3dc-launcher/releases/latest/download/RE3DC-setup.exe)**
@@ -197,71 +179,19 @@ Abre **RE3DC**. El launcher tiene arriba un botón grande de **JUGAR** y debajo 
 2. **Mejoras opcionales**: las texturas y vídeos HD de *RE3 A.I. Overhaul 1.1 de JuanchoTex HD* (el `.7z` que bajaste
    del autor; la 1.0 también vale), su *Add-on Castellano* (Doblaje Spain), el doblaje castellano de TTV y REC (`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`, de
    [su web](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/)) y el contenido propio de RE3DC.
-3. **Resumen**: qué se instala y cuánto espacio hace falta. Si quieres, guarda también el paquete `.zip` para tus otros
-   dispositivos.
+   **Jill y personajes:** la *Jill HD (1999)* y los *personajes HD* se hacen desde tu copia de GOG; la *Jill del RE3
+   (2020)* y los *personajes del RE3 (2020)* necesitan **tu copia de Steam de Resident Evil 3 (2020)** (el launcher
+   encuentra su carpeta).
+3. **Resumen**: qué se instala y cuánto espacio hace falta.
 4. **Instalar**: se comprueba cada archivo y se activa **JUGAR**.
 
 El launcher está en inglés y en español (botones arriba a la derecha). La desinstalación lo borra todo **menos tus
 partidas**.
 
-## Android
+## Otros sistemas
 
-Primero instala RE3DC en tu PC. Después, en la pantalla principal del launcher, pulsa **Android** (en «Preparar
-paquete para otros sistemas»).
-
-Se crea una carpeta `RE3DC-Android` en tu escritorio con tres cosas:
-- **la app**: el APK, bajado de las versiones [`android-*`](../../releases) de este repositorio;
-- **tu `re3dc-completo.zip`**: rearmado con lo que tienes instalado en el PC, comprobando cada archivo;
-- **`LEEME-ANDROID.txt`**, con los pasos.
-
-Luego:
-1. Instala el APK en el teléfono.
-2. Copia el zip a Descargas del teléfono.
-3. Abre RE3DC y elige **«Instalar el paquete completo»**.
-
-Requisitos: un teléfono o tableta arm64 con Android 8 o superior. La app se actualiza sola desde este repositorio y
-no manda nada a ningún sitio. El zip lleva tus archivos del juego: es solo para ti, no lo compartas.
-
-## Steam Deck y Linux
-
-Primero instala RE3DC en tu PC con Windows. Después, en la pantalla principal del launcher, pulsa **Steam Deck** o
-**Linux** y elige dónde dejarlo: un USB, una tarjeta microSD o una carpeta.
-
-Se crea una carpeta `RE3DC` con:
-- **el juego para Linux**: `RE3DC-linux-*-x86_64.AppImage`, de las [versiones `linux-*`](../../releases) de este
-  repositorio (nativo x86_64, OpenGL 3.3 y SDL2; sin telemetría ni red);
-- **el launcher de Linux** (`re3dc-launcher`): JUGAR, instalar y «Añadir a Steam» con carátulas, se maneja con el mando;
-- **tu `re3dc-completo.zip`**, rearmado con lo que tienes instalado en el PC, con cada archivo comprobado;
-- un LEEME (`LEEME-STEAMDECK.txt` o `LEEME-LINUX.txt`) con los pasos.
-
-En la Steam Deck:
-1. Copia la carpeta `RE3DC` entera a `/home/deck/RE3DC` y cambia al modo Escritorio.
-2. Abre `re3dc-launcher` (si no se abre: Propiedades → Permisos → «Es ejecutable») y pulsa **Instalar**: el juego ofrece
-   «Install the package next to the game». Elígelo con el mando.
-3. Pulsa **Añadir a Steam**, vuelve al modo Juego y busca «Resident Evil 3 DC» en «No de Steam».
-
-En un PC con Linux es igual: copia la carpeta (por ejemplo a `~/RE3DC`), dale `chmod +x` al launcher y al AppImage, y
-abre el launcher.
-
-## PS5 (consolas liberadas)
-
-Primero instala RE3DC en tu PC. Después, en la pantalla principal del launcher, pulsa **PS5** y elige tu **USB en
-exFAT**.
-
-En el USB deja:
-- **el título RE3DC** en `homebrew\PPSA99330`, bajado de las [versiones `ps5-*`](../../releases) de este repositorio;
-- **tu `re3dc-completo.zip`** en `RE3DC-PS5`, rearmado con lo que tienes instalado en el PC, con cada archivo comprobado;
-- **el copiador** (`re3dc-copiador.elf`) y **`LEEME-PS5.txt`**, con los pasos.
-
-Después:
-1. Conecta el USB a la PS5 con el jailbreak cargado (etaHEN + kstuff, elfldr, FTP y ShadowMount+). El título RE3DC
-   aparece en el menú.
-2. En el launcher, pulsa **Mandar el copiador a la PS5**: encuentra la consola en tu red local y el copiador instala
-   tu paquete en ella (unos minutos; muestra el avance en la tele).
-3. Abre RE3DC en la PS5. Sal siempre en orden: START → «Salir del juego» y después cierra el título.
-
-Probado en el firmware 13.40. El título es GPL-3.0 (usa ps5-opengl); su código fuente se entrega a quien lo pida: mira
-`THIRD_PARTY_NOTICES.md` en la versión. El zip lleva tus propios archivos del juego: es solo para ti, no lo compartas.
+Por ahora solo Windows (mira arriba). Las versiones anteriores de Android, PS5 y Linux / Steam Deck siguen
+en [Releases](../../releases), sin las novedades.
 
 ## Qué archivos hacen falta y dónde suelen estar
 
@@ -272,6 +202,7 @@ Probado en el firmware 13.40. El título es GPL-3.0 (usa ps5-opengl); su código
 | Texturas HD | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (o la 1.0) | `Descargas` |
 | Addon castellano (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Descargas` |
 | Doblaje castellano (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Descargas` |
+| Jill y personajes del RE3 (2020) | la carpeta de Steam de **Resident Evil 3** (2020) (con `re_chunk_000.pak`) | `C:\Program Files (x86)\Steam\steamapps\common\RE3` |
 
 > ⚠ Los instaladores de GOG traen varios idiomas: si **instalas** el juego, elige **«Español»** en el idioma del
 > instalador; si no, vuelves a tener la copia inglesa (en otra carpeta). El launcher lo detecta y te lo dice.
@@ -306,7 +237,7 @@ RE3DC nunca las reparte: se bajan de sus autores.
 ## Qué descarga el launcher
 
 Solo el contenido propio de RE3DC, de la versión [`recursos`](../../releases/tag/recursos) de **este repositorio**. Ni
-el launcher ni el juego se conectan a ningún otro servidor (salvo a tu propia PS5 en tu red local, cuando lo pides), y no
+el launcher ni el juego se conectan a ningún otro servidor y no
 hay telemetría.
 
 | Paquete | Qué es |
