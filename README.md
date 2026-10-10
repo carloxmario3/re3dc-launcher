@@ -20,7 +20,15 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.9 · launcher 0.2.17)
+## What's new (game 0.2.10 · launcher 0.2.18)
+
+- **Model viewer, fixed:** «Original» shows the 1999 model itself (before it looked like HD), and the animations are a
+  **list** with name and length; the chosen one plays by itself, in a loop (up / down choose).
+- **Platform icons are back in the launcher:** the Steam Deck / Linux launcher has its *Other systems* row again
+  (Android, PS5, Windows), and each launcher shows its own system in the header (Windows, Steam Deck or Linux).
+- Android app **0.9.27** with the fixed viewer.
+
+### Game 0.2.9 · launcher 0.2.17
 
 - **Model and animation viewer** in the «Models…» panel (START / F9 → *Models…* → **A** on a row): the model in use next
   to the 1999 one, turning, with its data (triangles, textures, bones, GPU memory) and its animations — the rest pose, the
@@ -116,9 +124,8 @@ Tip: choose the files in Desktop Mode (Game Mode has no file picker; the launche
 
 ## Other systems
 
-**Android:** install RE3DC on your PC or Steam Deck first, then press the *Android* tile (Windows) or *For Android…*
-(Steam Deck / Linux): a `RE3DC-Android` folder gets the app ([`android-0.9.26`](../../releases/tag/android-0.9.26), arm64,
-Android 8+), your complete package and a README with the three steps. PS5 later.
+**Android:** install RE3DC on your PC or Steam Deck first, then press the *Android* tile (on Windows, and in *Other systems* on the Steam Deck / Linux): a `RE3DC-Android` folder
+gets the app ([`android-0.9.27`](../../releases/tag/android-0.9.27), arm64, Android 8+), your complete package and a README with the three steps. PS5 later.
 
 ## Files you need and where they usually are
 
@@ -205,7 +212,15 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.9 · launcher 0.2.17)
+## Novedades (juego 0.2.10 · launcher 0.2.18)
+
+- **El visor de modelos, arreglado:** «Original» enseña el modelo de 1999 (antes se veía como el HD) y las animaciones son
+  una **lista** con nombre y duración; la elegida se reproduce sola, en bucle (arriba / abajo eligen).
+- **Vuelven los iconos de los sistemas al launcher:** el de la Steam Deck / Linux tiene otra vez su fila *Otros sistemas*
+  (Android, PS5, Windows) y cada launcher enseña su propio sistema en la cabecera (Windows, Steam Deck o Linux).
+- La app de Android **0.9.27**, con el visor arreglado.
+
+### Juego 0.2.9 · launcher 0.2.17
 
 - **Visor de modelos y animaciones** en el panel «Modelos…» (START / F9 → *Modelos…* → **A** sobre una fila): el modelo en
   uso junto al de 1999, girando, con sus datos (triángulos, texturas, huesos, memoria en la GPU) y sus animaciones —el
@@ -306,8 +321,8 @@ que está en los sitios de siempre).
 
 ## Otros sistemas
 
-**Android:** instala RE3DC primero en tu PC o en tu Steam Deck y pulsa el mosaico *Android* (Windows) o *Para Android…*
-(Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.26`](../../releases/tag/android-0.9.26),
+**Android:** instala RE3DC primero en tu PC o en tu Steam Deck y pulsa el mosaico *Android* (en Windows, y en *Otros
+sistemas* en la Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.27`](../../releases/tag/android-0.9.27),
 arm64, Android 8+), tu paquete completo y un LEEME con los tres pasos. La PS5, más adelante.
 
 ## Qué archivos hacen falta y dónde suelen estar
