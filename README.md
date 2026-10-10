@@ -20,7 +20,15 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.8 · launcher 0.2.16)
+## What's new (game 0.2.9 · launcher 0.2.17)
+
+- **Model and animation viewer** in the «Models…» panel (START / F9 → *Models…* → **A** on a row): the model in use next
+  to the 1999 one, turning, with its data (triangles, textures, bones, GPU memory) and its animations — the rest pose, the
+  last seconds of what that character did in the game (recorded) and the clips of the RE1 and Remake Jills. ◂ ▸ change
+  the animation, A plays / pauses, LB / RB frame by frame or the speed, X / Y rotate, up / down zoom, B back.
+- Android app **0.9.26** with the same viewer.
+
+### Game 0.2.8 · launcher 0.2.16
 
 - **«Models…» panel** in the in-game menu (START / F9): the model of each kind of character or enemy separately (Original,
   HD, Remake or RE1 HD and their variants), with *Reset* and *Save as default*.
@@ -109,7 +117,7 @@ Tip: choose the files in Desktop Mode (Game Mode has no file picker; the launche
 ## Other systems
 
 **Android:** install RE3DC on your PC or Steam Deck first, then press the *Android* tile (Windows) or *For Android…*
-(Steam Deck / Linux): a `RE3DC-Android` folder gets the app ([`android-0.9.25`](../../releases/tag/android-0.9.25), arm64,
+(Steam Deck / Linux): a `RE3DC-Android` folder gets the app ([`android-0.9.26`](../../releases/tag/android-0.9.26), arm64,
 Android 8+), your complete package and a README with the three steps. PS5 later.
 
 ## Files you need and where they usually are
@@ -197,7 +205,16 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.8 · launcher 0.2.16)
+## Novedades (juego 0.2.9 · launcher 0.2.17)
+
+- **Visor de modelos y animaciones** en el panel «Modelos…» (START / F9 → *Modelos…* → **A** sobre una fila): el modelo en
+  uso junto al de 1999, girando, con sus datos (triángulos, texturas, huesos, memoria en la GPU) y sus animaciones —el
+  reposo, los últimos segundos de lo que ese personaje hizo en la partida (grabado) y los clips de las Jill del RE1 y del
+  Remake—. ◂ ▸ cambian de animación, A en marcha / pausa, LB / RB cuadro a cuadro o la velocidad, X / Y giran, arriba /
+  abajo acercan, B vuelve.
+- La app de Android **0.9.26**, con el mismo visor.
+
+### Juego 0.2.8 · launcher 0.2.16
 
 - **Panel «Modelos…»** en el menú de la partida (START / F9): el modelo de cada tipo de personaje o enemigo por separado
   (Original, HD, Remake o RE1 HD y sus variantes), con *Restablecer* y *Guardar como predeterminado*.
@@ -290,7 +307,7 @@ que está en los sitios de siempre).
 ## Otros sistemas
 
 **Android:** instala RE3DC primero en tu PC o en tu Steam Deck y pulsa el mosaico *Android* (Windows) o *Para Android…*
-(Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.25`](../../releases/tag/android-0.9.25),
+(Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.26`](../../releases/tag/android-0.9.26),
 arm64, Android 8+), tu paquete completo y un LEEME con los tres pasos. La PS5, más adelante.
 
 ## Qué archivos hacen falta y dónde suelen estar
