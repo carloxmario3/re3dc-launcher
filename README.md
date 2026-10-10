@@ -20,7 +20,15 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.7 · launcher 0.2.15)
+## What's new (game 0.2.8 · launcher 0.2.16)
+
+- **«Models…» panel** in the in-game menu (START / F9): the model of each kind of character or enemy separately (Original,
+  HD, Remake or RE1 HD and their variants), with *Reset* and *Save as default*.
+- **RE1 HD:** the standard zombie (the Crimson Head is a separate choice) and a more natural skin tone for the RE1 Jill.
+- **Android is back:** the *Android* tile on Windows (*For Android…* on the Steam Deck / Linux) prepares the app (0.9.25)
+  and your complete package for your phone.
+
+### Launcher 0.2.15
 
 - **Install from a complete package (.zip)** (launcher 0.2.15): on the Steam Deck / Linux, a button on the start page finds
   an RE3DC complete package already built (in Downloads or on the microSD card), checks it and installs it. On Windows,
@@ -53,7 +61,7 @@ and builds everything on your PC.
 - Our own font for the title menu, the Options screen and the in-game menu (START), HD icons in inventory slots 7 and
   8, and «Back to the title» in the in-game menu.
 
-> **Now on Windows and Steam Deck / Linux.** Android and PS5 will come later, step by step. Sorry for the wait!
+> **Now on Windows, Steam Deck / Linux and Android.** PS5 will come later. Sorry for the wait!
 
 ## Download
 
@@ -100,7 +108,9 @@ Tip: choose the files in Desktop Mode (Game Mode has no file picker; the launche
 
 ## Other systems
 
-Android and PS5 later. Their earlier builds are still in [Releases](../../releases), without the new features.
+**Android:** install RE3DC on your PC or Steam Deck first, then press the *Android* tile (Windows) or *For Android…*
+(Steam Deck / Linux): a `RE3DC-Android` folder gets the app ([`android-0.9.25`](../../releases/tag/android-0.9.25), arm64,
+Android 8+), your complete package and a README with the three steps. PS5 later.
 
 ## Files you need and where they usually are
 
@@ -187,7 +197,15 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.7 · launcher 0.2.15)
+## Novedades (juego 0.2.8 · launcher 0.2.16)
+
+- **Panel «Modelos…»** en el menú de la partida (START / F9): el modelo de cada tipo de personaje o enemigo por separado
+  (Original, HD, Remake o RE1 HD y sus variantes), con *Restablecer* y *Guardar como predeterminado*.
+- **RE1 HD:** el zombi estándar (el Crimson Head, aparte) y un tono de piel más natural para la Jill del RE1.
+- **Vuelve Android:** el mosaico *Android* en Windows (*Para Android…* en la Steam Deck / Linux) prepara la app (0.9.25) y
+  tu paquete completo para el teléfono.
+
+### Launcher 0.2.15
 
 - **Instalar desde un paquete completo (.zip)** (launcher 0.2.15): en la Steam Deck / Linux, un botón en el inicio encuentra
   un paquete RE3DC completo ya armado (en Descargas o en la microSD), lo comprueba y lo instala. En Windows, *Ya tengo un
@@ -222,7 +240,7 @@ y lo arma todo en tu PC.
 - Letra propia en el menú del título, en Opciones y en el menú de la partida (START), iconos HD en las casillas 7 y 8 del
   inventario y «Volver al título» en el menú de la partida.
 
-> **Ya en Windows y en la Steam Deck / Linux.** Android y PS5 llegarán más adelante, poco a poco. ¡Perdón por la espera!
+> **Ya en Windows, la Steam Deck / Linux y Android.** La PS5 llegará más adelante. ¡Perdón por la espera!
 
 ## Descarga
 
@@ -271,7 +289,9 @@ que está en los sitios de siempre).
 
 ## Otros sistemas
 
-Android y PS5, más adelante. Sus versiones anteriores siguen en [Releases](../../releases), sin las novedades.
+**Android:** instala RE3DC primero en tu PC o en tu Steam Deck y pulsa el mosaico *Android* (Windows) o *Para Android…*
+(Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.25`](../../releases/tag/android-0.9.25),
+arm64, Android 8+), tu paquete completo y un LEEME con los tres pasos. La PS5, más adelante.
 
 ## Qué archivos hacen falta y dónde suelen estar
 
