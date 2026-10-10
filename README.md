@@ -20,7 +20,11 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.7 · launcher 0.2.14)
+## What's new (game 0.2.7 · launcher 0.2.15)
+
+- **Install from a complete package (.zip)** (launcher 0.2.15): on the Steam Deck / Linux, a button on the start page finds
+  an RE3DC complete package already built (in Downloads or on the microSD card), checks it and installs it. On Windows,
+  *I already have an RE3DC complete package (.zip)* does the same.
 
 - **Steam Deck and Linux are back**, with their own launcher that does everything on the Deck: it finds your copies,
   builds the packages, installs, has a big **PLAY** button and updates itself. **One command** to install it (see
@@ -183,7 +187,11 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.7 · launcher 0.2.14)
+## Novedades (juego 0.2.7 · launcher 0.2.15)
+
+- **Instalar desde un paquete completo (.zip)** (launcher 0.2.15): en la Steam Deck / Linux, un botón en el inicio encuentra
+  un paquete RE3DC completo ya armado (en Descargas o en la microSD), lo comprueba y lo instala. En Windows, *Ya tengo un
+  paquete RE3DC completo (.zip)* hace lo mismo.
 
 - **Vuelven la Steam Deck y Linux**, con su propio launcher que lo hace todo en la Deck: encuentra tus copias, arma los
   paquetes, instala, tiene un botón grande de **JUGAR** y se actualiza solo. Se instala con **un comando** (mira
