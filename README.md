@@ -20,7 +20,17 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.10 · launcher 0.2.18)
+## What's new (game 0.2.11 · launcher 0.2.19)
+
+- **The model viewer shows only the model in use**, including the **1999 Original read from your GOG copy**.
+- **The RE3 (2020) Jill by default** if you built her (otherwise RE1 HD → HD → 1999); your own choices are kept.
+- **The 17 RE1 HD zombies**, each on its own, the normal one by default (RE1 HD package 7: tick it again to rebuild).
+- **No invisible weapons** (the 1999 one shows if a model doesn't carry it); the Mercenaries pistols with the Remake Jill.
+- **PS5 is back:** [`ps5-0.3.2`](../../releases/tag/ps5-0.3.2) with the same game, prepared from the **PS5** tile (Windows
+  and Steam Deck / Linux). Not tested on a console yet.
+- Android app **0.9.29** with the same game.
+
+### Game 0.2.10 · launcher 0.2.18
 
 - **Model viewer, fixed:** «Original» shows the 1999 model itself (before it looked like HD), and the animations are a
   **list** with name and length; the chosen one plays by itself, in a loop (up / down choose).
@@ -77,7 +87,7 @@ and builds everything on your PC.
 - Our own font for the title menu, the Options screen and the in-game menu (START), HD icons in inventory slots 7 and
   8, and «Back to the title» in the in-game menu.
 
-> **Now on Windows, Steam Deck / Linux and Android.** PS5 will come later. Sorry for the wait!
+> **Now on Windows, Steam Deck / Linux, Android and PS5** (jailbroken; 0.3.2 not yet tested on a console).
 
 ## Download
 
@@ -125,10 +135,13 @@ Tip: choose the files in Desktop Mode (Game Mode has no file picker; the launche
 ## Other systems
 
 **Android:** install RE3DC on your PC or Steam Deck first, then press the *Android* tile (on Windows, and in *Other systems* on the Steam Deck / Linux): a `RE3DC-Android` folder
-gets the app ([`android-0.9.28`](../../releases/tag/android-0.9.28), arm64, Android 8+), your complete package and a README with the three steps.
+gets the app ([`android-0.9.29`](../../releases/tag/android-0.9.29), arm64, Android 8+), your complete package and a README with the three steps.
 Since 0.9.28 the app has its **own launcher**: it can also install straight on the phone from your GOG folder or from the
 GOG offline installer (`.exe` + `.bin`), from a complete or single package (.zip) or from a folder, with the options and
-updates outside the game. Video tutorial (Spanish): https://www.youtube.com/watch?v=I44xCRiZbeg. PS5 later.
+updates outside the game. Video tutorial (Spanish): https://www.youtube.com/watch?v=I44xCRiZbeg.
+
+**PS5 (jailbroken):** the **PS5** tile (Windows, and *Other systems* on the Steam Deck / Linux) prepares the USB drive
+with the title ([`ps5-0.3.2`](../../releases/tag/ps5-0.3.2)), your complete package and the copier; steps in `INSTALAR.md`.
 
 ## Files you need and where they usually are
 
@@ -215,7 +228,17 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.10 · launcher 0.2.18)
+## Novedades (juego 0.2.11 · launcher 0.2.19)
+
+- **El visor enseña solo el modelo en uso**, también el **Original de 1999 sacado de tu GOG**.
+- **La Jill del Remake por defecto** si la armaste (si no, RE1 HD → HD → 1999); lo que tú elegiste se respeta.
+- **Los 17 zombis del RE1 HD**, cada uno por separado, con el normal por defecto (paquete RE1 HD 7: vuelve a marcarlo).
+- **Ningún arma invisible** (si el modelo no la trae, sale la de 1999); las pistolas de Mercenarios con la Jill del Remake.
+- **Vuelve la PS5:** [`ps5-0.3.2`](../../releases/tag/ps5-0.3.2) con el mismo juego, preparada desde el mosaico **PS5**
+  (Windows y Steam Deck / Linux). Aún sin probar en una consola.
+- La app de Android **0.9.29**, con el mismo juego.
+
+### Juego 0.2.10 · launcher 0.2.18
 
 - **El visor de modelos, arreglado:** «Original» enseña el modelo de 1999 (antes se veía como el HD) y las animaciones son
   una **lista** con nombre y duración; la elegida se reproduce sola, en bucle (arriba / abajo eligen).
@@ -275,7 +298,7 @@ y lo arma todo en tu PC.
 - Letra propia en el menú del título, en Opciones y en el menú de la partida (START), iconos HD en las casillas 7 y 8 del
   inventario y «Volver al título» en el menú de la partida.
 
-> **Ya en Windows, la Steam Deck / Linux y Android.** La PS5 llegará más adelante. ¡Perdón por la espera!
+> **Ya en Windows, la Steam Deck / Linux, Android y PS5** (liberada; la 0.3.2 aún sin probar en una consola).
 
 ## Descarga
 
@@ -325,11 +348,14 @@ que está en los sitios de siempre).
 ## Otros sistemas
 
 **Android:** instala RE3DC primero en tu PC o en tu Steam Deck y pulsa el mosaico *Android* (en Windows, y en *Otros
-sistemas* en la Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.28`](../../releases/tag/android-0.9.28),
+sistemas* en la Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.29`](../../releases/tag/android-0.9.29),
 arm64, Android 8+), tu paquete completo y un LEEME con los tres pasos. Desde la 0.9.28 la app tiene su **propio
 launcher**: también instala directamente en el teléfono desde la carpeta de tu GOG o desde su instalador offline (`.exe` +
 `.bin`), desde un paquete completo o suelto (.zip) o desde una carpeta, con las opciones y las actualizaciones fuera del
-juego. Tutorial en video: https://www.youtube.com/watch?v=I44xCRiZbeg. La PS5, más adelante.
+juego. Tutorial en video: https://www.youtube.com/watch?v=I44xCRiZbeg.
+
+**PS5 (liberada):** el mosaico **PS5** (en Windows, y en *Otros sistemas* en la Steam Deck / Linux) prepara el USB con el
+título ([`ps5-0.3.2`](../../releases/tag/ps5-0.3.2)), tu paquete completo y el copiador; los pasos, en `INSTALAR.md`.
 
 ## Qué archivos hacen falta y dónde suelen estar
 
