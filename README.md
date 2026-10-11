@@ -128,7 +128,7 @@ Tip: choose the files in Desktop Mode (Game Mode has no file picker; the launche
 gets the app ([`android-0.9.28`](../../releases/tag/android-0.9.28), arm64, Android 8+), your complete package and a README with the three steps.
 Since 0.9.28 the app has its **own launcher**: it can also install straight on the phone from your GOG folder or from the
 GOG offline installer (`.exe` + `.bin`), from a complete or single package (.zip) or from a folder, with the options and
-updates outside the game. Video tutorial (Spanish): https://www.youtube.com/watch?v=pUQSskXDOUU. PS5 later.
+updates outside the game. Video tutorial (Spanish): https://www.youtube.com/watch?v=I44xCRiZbeg. PS5 later.
 
 ## Files you need and where they usually are
 
@@ -329,7 +329,7 @@ sistemas* en la Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la ap
 arm64, Android 8+), tu paquete completo y un LEEME con los tres pasos. Desde la 0.9.28 la app tiene su **propio
 launcher**: también instala directamente en el teléfono desde la carpeta de tu GOG o desde su instalador offline (`.exe` +
 `.bin`), desde un paquete completo o suelto (.zip) o desde una carpeta, con las opciones y las actualizaciones fuera del
-juego. Tutorial en video: https://www.youtube.com/watch?v=pUQSskXDOUU. La PS5, más adelante.
+juego. Tutorial en video: https://www.youtube.com/watch?v=I44xCRiZbeg. La PS5, más adelante.
 
 ## Qué archivos hacen falta y dónde suelen estar
 
