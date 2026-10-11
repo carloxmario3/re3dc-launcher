@@ -125,7 +125,10 @@ Tip: choose the files in Desktop Mode (Game Mode has no file picker; the launche
 ## Other systems
 
 **Android:** install RE3DC on your PC or Steam Deck first, then press the *Android* tile (on Windows, and in *Other systems* on the Steam Deck / Linux): a `RE3DC-Android` folder
-gets the app ([`android-0.9.27`](../../releases/tag/android-0.9.27), arm64, Android 8+), your complete package and a README with the three steps. PS5 later.
+gets the app ([`android-0.9.28`](../../releases/tag/android-0.9.28), arm64, Android 8+), your complete package and a README with the three steps.
+Since 0.9.28 the app has its **own launcher**: it can also install straight on the phone from your GOG folder or from the
+GOG offline installer (`.exe` + `.bin`), from a complete or single package (.zip) or from a folder, with the options and
+updates outside the game. Video tutorial (Spanish): https://www.youtube.com/watch?v=pUQSskXDOUU. PS5 later.
 
 ## Files you need and where they usually are
 
@@ -322,8 +325,11 @@ que está en los sitios de siempre).
 ## Otros sistemas
 
 **Android:** instala RE3DC primero en tu PC o en tu Steam Deck y pulsa el mosaico *Android* (en Windows, y en *Otros
-sistemas* en la Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.27`](../../releases/tag/android-0.9.27),
-arm64, Android 8+), tu paquete completo y un LEEME con los tres pasos. La PS5, más adelante.
+sistemas* en la Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.28`](../../releases/tag/android-0.9.28),
+arm64, Android 8+), tu paquete completo y un LEEME con los tres pasos. Desde la 0.9.28 la app tiene su **propio
+launcher**: también instala directamente en el teléfono desde la carpeta de tu GOG o desde su instalador offline (`.exe` +
+`.bin`), desde un paquete completo o suelto (.zip) o desde una carpeta, con las opciones y las actualizaciones fuera del
+juego. Tutorial en video: https://www.youtube.com/watch?v=pUQSskXDOUU. La PS5, más adelante.
 
 ## Qué archivos hacen falta y dónde suelen estar
 
