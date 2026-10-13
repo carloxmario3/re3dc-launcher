@@ -20,7 +20,14 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.12 · launcher 0.2.20)
+## What's new (game 0.2.12 · launcher 0.2.21)
+
+- **Fixed «RE1 HD: the conversion failed (exit status 1)» on Windows in Spanish** (and other non-English Windows): the
+  RE1 HD and RE3 (2020) characters steps no longer break when the tools print accented text.
+- **Windows:** under «RE1 HD: Jill and characters» the launcher shows the Resident Evil HD REMASTER folder it found in
+  Steam, with **«Change…»** to pick another one.
+
+### Game 0.2.12 · launcher 0.2.20
 
 - **The Remake Nemesis now shows up in the game** (1st and 2nd form) when you pick «Remake» for him; the Nemesis forms
   without a Remake model use the 1999 one. Also in PS5 0.3.3 and the Android app 0.9.30.
@@ -233,7 +240,14 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.12 · launcher 0.2.20)
+## Novedades (juego 0.2.12 · launcher 0.2.21)
+
+- **Arreglado «RE1 HD: la conversión falló (exit status 1)» en un Windows en español** (y en otros idiomas): las
+  etapas del RE1 HD y de los personajes del RE3 (2020) ya no se rompen cuando las herramientas escriben tildes.
+- **Windows:** debajo de «RE1 HD: Jill y personajes» se ve la carpeta de Resident Evil HD REMASTER que encontró en
+  Steam, con **«Cambiar…»** para elegir otra.
+
+### Juego 0.2.12 · launcher 0.2.20
 
 - **El Nemesis del Remake ya se ve en el juego** (1.ª y 2.ª forma) al elegir «Remake» para él; las formas sin modelo del
   Remake usan la de 1999. También en la PS5 0.3.3 y en la app de Android 0.9.30.
