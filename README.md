@@ -7,6 +7,7 @@
   <br><sub>Windows 10/11 · 64-bit · ~105 MB · always the latest version / siempre la última versión</sub>
   <br><br><b>Steam Deck / Linux</b> — in Desktop Mode, open Konsole and paste · <i>en el modo Escritorio, abre Konsole y pega</i>:
   <br><code>curl -fsSL https://github.com/carloxmario3/re3dc-launcher/releases/latest/download/instalar-deck.sh | bash</code>
+  <br><br>▶ <b>Video tutorials</b> · <i>tutoriales en vídeo</i>: <a href="https://www.youtube.com/watch?v=bDluC9WAgLc">Windows</a> · <a href="https://www.youtube.com/watch?v=8Fny8O4hchs">Steam Deck / Linux</a> · <a href="https://www.youtube.com/watch?v=I44xCRiZbeg">Android</a>
 </p>
 
 **English** · [Español](#español)
@@ -136,6 +137,8 @@ and builds everything on your PC.
 [**Releases**](../../releases). Once installed, the launcher updates itself. It installs for your user only (no administrator rights) and adds an **RE3DC** shortcut. The executables are not
 signed yet: if SmartScreen warns you, choose *More info → Run anyway*. Each release lists its SHA-256.
 
+**Video tutorial, step by step (launcher 0.3.0):** https://www.youtube.com/watch?v=bDluC9WAgLc (English narration, Spanish subtitles).
+
 ## How it works
 
 Open **RE3DC**. The launcher has a big **PLAY** button at the top and a step-by-step wizard (one question per screen;
@@ -175,13 +178,15 @@ page. Works on any 64-bit Linux with glibc 2.35 or newer and SDL2.
 
 Tip: choose the files in Desktop Mode (Game Mode has no file picker; the launcher finds what is in the usual places).
 
+**Video tutorial:** https://www.youtube.com/watch?v=8Fny8O4hchs
+
 ## Other systems
 
 **Android:** install RE3DC on your PC or Steam Deck first, then press the *Android* tile (on Windows, and in *Other systems* on the Steam Deck / Linux): a `RE3DC-Android` folder
 gets the app ([`android-0.9.31`](../../releases/tag/android-0.9.31), arm64, Android 8+), your complete package and a README with the three steps.
 Since 0.9.28 the app has its **own launcher**: it can also install straight on the phone from your GOG folder or from the
 GOG offline installer (`.exe` + `.bin`), from a complete or single package (.zip) or from a folder, with the options and
-updates outside the game. Video tutorial (Spanish): https://www.youtube.com/watch?v=I44xCRiZbeg.
+updates outside the game. Video tutorial (English narration, Spanish subtitles): https://www.youtube.com/watch?v=I44xCRiZbeg.
 
 **PS5 (jailbroken):** the **PS5** tile (Windows, and *Other systems* on the Steam Deck / Linux) prepares the USB drive
 with the title ([`ps5-0.3.4`](../../releases/tag/ps5-0.3.4)), your complete package and the copier; steps in `INSTALAR.md`.
@@ -391,6 +396,8 @@ y lo arma todo en tu PC.
 para tu usuario (sin permisos de administrador) y deja un acceso **RE3DC**. Los ejecutables aún no están firmados: si
 SmartScreen avisa, «Más información → Ejecutar de todas formas». Cada versión trae su SHA-256.
 
+**Tutorial en vídeo, paso a paso (launcher 0.3.0):** https://www.youtube.com/watch?v=bDluC9WAgLc (voz en inglés, subtítulos en español).
+
 ## Cómo funciona
 
 Abre **RE3DC**. El launcher tiene arriba un botón grande de **JUGAR** y debajo un asistente paso a paso (una pregunta
@@ -430,6 +437,8 @@ página. Vale en cualquier Linux de 64 bits con glibc 2.35 o más nueva y SDL2.
 
 Consejo: elige los archivos en el modo Escritorio (el modo Juego no tiene selector de archivos; el launcher encuentra lo
 que está en los sitios de siempre).
+
+**Tutorial en vídeo:** https://www.youtube.com/watch?v=8Fny8O4hchs
 
 ## Otros sistemas
 
