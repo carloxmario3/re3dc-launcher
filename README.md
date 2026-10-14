@@ -20,7 +20,14 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.13 · launcher 0.2.22)
+## What's new (game 0.2.13 · launcher 0.2.23)
+
+- **JuanchoTex HD «1.1 fix2» recognized.** The launcher accepts `RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z` (the 7z as the
+  author gives it, or its folder) besides 1.1 and 1.0: it tells the version apart by its file names and sizes and says
+  which one it found. The fix2 gives the same HD as 1.1. In *Downloads* it prefers fix2, then 1.1, then 1.0. The game
+  doesn't change (0.2.13).
+
+### Game 0.2.13 · launcher 0.2.22
 
 - **Random zombies.** In START/F9 → *Models…*, the four zombie groups have a new option, **«Random (one per zombie)»**,
   and the row **«Zombies: all random»** sets all four at once: every zombie that appears gets one of the models you have
@@ -122,7 +129,7 @@ Open **RE3DC**. The launcher has a big **PLAY** button at the top and a step-by-
 1. **Your Resident Evil 3 from GOG** — found automatically in the usual GOG folders, or choose its folder or its
    offline installer. English, Spanish or both.
 2. **Optional extras** — the HD textures and videos of *RE3 A.I. Overhaul 1.1 by JuanchoTex HD* (the `.7z` you
-   downloaded from the author; 1.0 also works), his *Add-on Castellano* (Doblaje Spain), the Castilian Spanish dub by TTV and REC (`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`, from
+   downloaded from the author: 1.1 fix2, 1.1 or 1.0), his *Add-on Castellano* (Doblaje Spain), the Castilian Spanish dub by TTV and REC (`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`, from
    [their site](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/)), and RE3DC's own content.
    **Jill and characters:** *HD Jill (1999)* and *HD characters* are made from your GOG copy; *RE3 (2020) Jill* and
    *RE3 (2020) characters* need your **Steam copy of Resident Evil 3 (2020)**, and *RE1 HD: Jill and characters* your
@@ -168,7 +175,7 @@ with the title ([`ps5-0.3.4`](../../releases/tag/ps5-0.3.4)), your complete pack
 |---|---|---|
 | **Resident Evil 3 from GOG, English** (required, or the Spanish one) | the installed folder (with `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **or** its offline installer `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Downloads` |
 | **Resident Evil 3 from GOG, Spanish** (to play in Spanish) | **easiest:** the offline installer `setup_resident_evil_3_1.0_hotfix4_(spanish)_(86848).exe` + `…-1.bin` (the launcher extracts the Spanish copy, no install needed) **or** a folder installed **choosing «Español»** in the installer (it also has `Rofs16.dat`) | `Downloads` (GOG.com → your library → Resident Evil 3 → offline installers, Spanish) |
-| HD textures | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (or 1.0) | `Downloads` |
+| HD textures | `RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z` (or 1.1, 1.0) | `Downloads` |
 | Spanish add-on (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Downloads` |
 | Castilian dub (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Downloads` |
 | RE3 (2020) Jill and characters | your Steam **Resident Evil 3** (2020) folder (with `re_chunk_000.pak`) | `C:\Program Files (x86)\Steam\steamapps\common\RE3` |
@@ -188,7 +195,7 @@ RE3DC never distributes them: download them from their authors.
   - [Resident Evil 3 Nemesis A.I. Overhaul — Update 1.1](https://www.youtube.com/watch?v=3sUvsibhLOY)
   - [RE3 Add-on Castellano for A.I. Overhaul 1.1](https://www.youtube.com/watch?v=o0-zQJU04Lg)
 
-  - **A.I. Overhaul 1.1** (`RE3 A.I. OVERHAUL 1.1 by JTHD.7z`, recommended) or 1.0: put it in *HD textures*.
+  - **A.I. Overhaul 1.1 fix2** (`RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z`, recommended), 1.1 or 1.0: put it in *HD textures*.
   - **Add-on Castellano** (`RE3 ADD-ON CASTELLANO by JTHD.7z`): put it in *Spanish add-on* (needs your Spanish GOG copy).
     RE3DC takes its Spanish voices and dubbed movies by **Doblaje Spain (JuanLuGames)**; in the game, choose
     *Options → Voices → Spanish (Doblaje Spain)*. Its translation differs from the game's Spanish texts, so the dubbed
@@ -221,7 +228,7 @@ launcher and the game do not contact any other server and there is no telemetry.
 
 - Decompilation, ports and launcher: **Llamix Tec** — YouTube channel:
   [youtube.com/@Llamix-Tec](https://www.youtube.com/@Llamix-Tec)
-- HD textures and videos: **JuanchoTex HD (JTHD)**, *RE3 A.I. Overhaul 1.1* (and 1.0), built on RE:Enhance by SonicBOOM and
+- HD textures and videos: **JuanchoTex HD (JTHD)**, *RE3 A.I. Overhaul 1.1 fix2* (and 1.1, 1.0), built on RE:Enhance by SonicBOOM and
   TeamX's mask tools. You bring the author's download; RE3DC converts it on your PC.
 - Add-on Castellano: dub by **Doblaje Spain (JuanLuGames)**, translation by Leigiboy, HD text files by Danny.DMF,
   assembled by JuanchoTex HD. You bring the author's download; RE3DC only converts its voices and movies on your PC.
@@ -247,7 +254,14 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.13 · launcher 0.2.22)
+## Novedades (juego 0.2.13 · launcher 0.2.23)
+
+- **La JuanchoTex HD «1.1 fix2», reconocida.** El launcher acepta `RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z` (el 7z tal
+  cual lo da el autor, o su carpeta) además de la 1.1 y la 1.0: distingue la versión por los nombres y tamaños de sus
+  ficheros y dice cuál encontró. La fix2 da el mismo HD que la 1.1. En *Descargas* prefiere la fix2, luego la 1.1 y luego
+  la 1.0. El juego no cambia (0.2.13).
+
+### Juego 0.2.13 · launcher 0.2.22
 
 - **Zombis aleatorios.** En START/F9 → *Modelos…*, los cuatro grupos de zombis tienen una opción nueva, **«Aleatorio (uno
   por zombi)»**, y la fila **«Zombis: todos aleatorios»** pone los cuatro a la vez: a cada zombi que aparece le toca uno de
@@ -353,7 +367,7 @@ Abre **RE3DC**. El launcher tiene arriba un botón grande de **JUGAR** y debajo 
 1. **Tu Resident Evil 3 de GOG**: lo busca solo en las carpetas habituales de GOG, o eliges su carpeta o su
    instalador offline. Inglés, español o los dos.
 2. **Mejoras opcionales**: las texturas y vídeos HD de *RE3 A.I. Overhaul 1.1 de JuanchoTex HD* (el `.7z` que bajaste
-   del autor; la 1.0 también vale), su *Add-on Castellano* (Doblaje Spain), el doblaje castellano de TTV y REC (`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`, de
+   del autor: la 1.1 fix2, la 1.1 o la 1.0), su *Add-on Castellano* (Doblaje Spain), el doblaje castellano de TTV y REC (`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`, de
    [su web](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/)) y el contenido propio de RE3DC.
    **Jill y personajes:** la *Jill HD (1999)* y los *personajes HD* se hacen desde tu copia de GOG; la *Jill del RE3
    (2020)* y los *personajes del RE3 (2020)* necesitan **tu copia de Steam de Resident Evil 3 (2020)**, y *RE1 HD: Jill y
@@ -401,7 +415,7 @@ título ([`ps5-0.3.4`](../../releases/tag/ps5-0.3.4)), tu paquete completo y el 
 |---|---|---|
 | **Resident Evil 3 de GOG, inglés** (obligatorio, o el español) | la carpeta instalada (con `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **o** su instalador offline `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Descargas` |
 | **Resident Evil 3 de GOG, español** (para jugar en español) | **lo más fácil:** el instalador offline `setup_resident_evil_3_1.0_hotfix4_(spanish)_(86848).exe` + `…-1.bin` (el launcher saca de él la copia española, sin instalar nada) **o** una carpeta instalada **eligiendo «Español»** en el instalador (trae además `Rofs16.dat`) | `Descargas` (GOG.com → tu biblioteca → Resident Evil 3 → instaladores offline, español) |
-| Texturas HD | `RE3 A.I. OVERHAUL 1.1 by JTHD.7z` (o la 1.0) | `Descargas` |
+| Texturas HD | `RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z` (o la 1.1, la 1.0) | `Descargas` |
 | Addon castellano (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Descargas` |
 | Doblaje castellano (TTV) | `RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z` | `Descargas` |
 | Jill y personajes del RE3 (2020) | la carpeta de Steam de **Resident Evil 3** (2020) (con `re_chunk_000.pak`) | `C:\Program Files (x86)\Steam\steamapps\common\RE3` |
@@ -421,7 +435,7 @@ RE3DC nunca las reparte: se bajan de sus autores.
   - [Resident Evil 3 Nemesis A.I. Overhaul — Update 1.1](https://www.youtube.com/watch?v=3sUvsibhLOY)
   - [RE3 Add-on Castellano para A.I. Overhaul 1.1](https://www.youtube.com/watch?v=o0-zQJU04Lg)
 
-  - **A.I. Overhaul 1.1** (`RE3 A.I. OVERHAUL 1.1 by JTHD.7z`, recomendada) o la 1.0: va en *Texturas HD*.
+  - **A.I. Overhaul 1.1 fix2** (`RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z`, recomendada), la 1.1 o la 1.0: va en *Texturas HD*.
   - **Add-on Castellano** (`RE3 ADD-ON CASTELLANO by JTHD.7z`): va en *Addon castellano* (necesita tu GOG en español).
     RE3DC toma sus voces y películas dobladas al castellano por **Doblaje Spain (JuanLuGames)**; en el juego, elige
     *Opciones → Voces → Castellano (Doblaje Spain)*. Su traducción no es la de los textos en español del juego, así
@@ -455,7 +469,7 @@ hay telemetría.
 
 - Decompilación, ports y launcher: **Llamix Tec** — canal de YouTube:
   [youtube.com/@Llamix-Tec](https://www.youtube.com/@Llamix-Tec)
-- Texturas y vídeos HD: **JuanchoTex HD (JTHD)**, *RE3 A.I. Overhaul 1.1* (y la 1.0), sobre RE:Enhance de SonicBOOM y las
+- Texturas y vídeos HD: **JuanchoTex HD (JTHD)**, *RE3 A.I. Overhaul 1.1 fix2* (y la 1.1 y la 1.0), sobre RE:Enhance de SonicBOOM y las
   herramientas de máscaras de TeamX. Tú aportas la descarga del autor; RE3DC la convierte en tu PC.
 - Add-on Castellano: doblaje de **Doblaje Spain (JuanLuGames)**, traducción de Leigiboy, textos HD de Danny.DMF,
   montado por JuanchoTex HD. Tú aportas la descarga del autor; RE3DC solo convierte sus voces y películas en tu PC.
