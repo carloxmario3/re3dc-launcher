@@ -20,7 +20,14 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.12 · launcher 0.2.21)
+## What's new (game 0.2.13 · launcher 0.2.22)
+
+- **Random zombies.** In START/F9 → *Models…*, the four zombie groups have a new option, **«Random (one per zombie)»**,
+  and the row **«Zombies: all random»** sets all four at once: every zombie that appears gets one of the models you have
+  for its type (1999, HD, Remake, each RE1 HD zombie) and keeps it while it lives. Off by default. Also in PS5 0.3.4 and
+  the Android app 0.9.31.
+
+### Launcher 0.2.21
 
 - **Fixed «RE1 HD: the conversion failed (exit status 1)» on Windows in Spanish** (and other non-English Windows): the
   RE1 HD and RE3 (2020) characters steps no longer break when the tools print accented text.
@@ -99,7 +106,7 @@ and builds everything on your PC.
 - Our own font for the title menu, the Options screen and the in-game menu (START), HD icons in inventory slots 7 and
   8, and «Back to the title» in the in-game menu.
 
-> **Now on Windows, Steam Deck / Linux, Android and PS5** (jailbroken; 0.3.2/0.3.3 not yet tested on a console).
+> **Now on Windows, Steam Deck / Linux, Android and PS5** (jailbroken; 0.3.2–0.3.4 not yet tested on a console).
 
 ## Download
 
@@ -147,13 +154,13 @@ Tip: choose the files in Desktop Mode (Game Mode has no file picker; the launche
 ## Other systems
 
 **Android:** install RE3DC on your PC or Steam Deck first, then press the *Android* tile (on Windows, and in *Other systems* on the Steam Deck / Linux): a `RE3DC-Android` folder
-gets the app ([`android-0.9.30`](../../releases/tag/android-0.9.30), arm64, Android 8+), your complete package and a README with the three steps.
+gets the app ([`android-0.9.31`](../../releases/tag/android-0.9.31), arm64, Android 8+), your complete package and a README with the three steps.
 Since 0.9.28 the app has its **own launcher**: it can also install straight on the phone from your GOG folder or from the
 GOG offline installer (`.exe` + `.bin`), from a complete or single package (.zip) or from a folder, with the options and
 updates outside the game. Video tutorial (Spanish): https://www.youtube.com/watch?v=I44xCRiZbeg.
 
 **PS5 (jailbroken):** the **PS5** tile (Windows, and *Other systems* on the Steam Deck / Linux) prepares the USB drive
-with the title ([`ps5-0.3.3`](../../releases/tag/ps5-0.3.3)), your complete package and the copier; steps in `INSTALAR.md`.
+with the title ([`ps5-0.3.4`](../../releases/tag/ps5-0.3.4)), your complete package and the copier; steps in `INSTALAR.md`.
 
 ## Files you need and where they usually are
 
@@ -240,7 +247,14 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.12 · launcher 0.2.21)
+## Novedades (juego 0.2.13 · launcher 0.2.22)
+
+- **Zombis aleatorios.** En START/F9 → *Modelos…*, los cuatro grupos de zombis tienen una opción nueva, **«Aleatorio (uno
+  por zombi)»**, y la fila **«Zombis: todos aleatorios»** pone los cuatro a la vez: a cada zombi que aparece le toca uno de
+  los modelos que tengas para su tipo (1999, HD, Remake, cada zombi del RE1 HD) y se queda con él mientras vive. Apagado de
+  serie. También en la PS5 0.3.4 y en la app de Android 0.9.31.
+
+### Launcher 0.2.21
 
 - **Arreglado «RE1 HD: la conversión falló (exit status 1)» en un Windows en español** (y en otros idiomas): las
   etapas del RE1 HD y de los personajes del RE3 (2020) ya no se rompen cuando las herramientas escriben tildes.
@@ -322,7 +336,7 @@ y lo arma todo en tu PC.
 - Letra propia en el menú del título, en Opciones y en el menú de la partida (START), iconos HD en las casillas 7 y 8 del
   inventario y «Volver al título» en el menú de la partida.
 
-> **Ya en Windows, la Steam Deck / Linux, Android y PS5** (liberada; la 0.3.2/0.3.3 aún sin probar en una consola).
+> **Ya en Windows, la Steam Deck / Linux, Android y PS5** (liberada; de la 0.3.2 a la 0.3.4, aún sin probar en una consola).
 
 ## Descarga
 
@@ -372,14 +386,14 @@ que está en los sitios de siempre).
 ## Otros sistemas
 
 **Android:** instala RE3DC primero en tu PC o en tu Steam Deck y pulsa el mosaico *Android* (en Windows, y en *Otros
-sistemas* en la Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.30`](../../releases/tag/android-0.9.30),
+sistemas* en la Steam Deck / Linux): en una carpeta `RE3DC-Android` quedan la app ([`android-0.9.31`](../../releases/tag/android-0.9.31),
 arm64, Android 8+), tu paquete completo y un LEEME con los tres pasos. Desde la 0.9.28 la app tiene su **propio
 launcher**: también instala directamente en el teléfono desde la carpeta de tu GOG o desde su instalador offline (`.exe` +
 `.bin`), desde un paquete completo o suelto (.zip) o desde una carpeta, con las opciones y las actualizaciones fuera del
 juego. Tutorial en video: https://www.youtube.com/watch?v=I44xCRiZbeg.
 
 **PS5 (liberada):** el mosaico **PS5** (en Windows, y en *Otros sistemas* en la Steam Deck / Linux) prepara el USB con el
-título ([`ps5-0.3.3`](../../releases/tag/ps5-0.3.3)), tu paquete completo y el copiador; los pasos, en `INSTALAR.md`.
+título ([`ps5-0.3.4`](../../releases/tag/ps5-0.3.4)), tu paquete completo y el copiador; los pasos, en `INSTALAR.md`.
 
 ## Qué archivos hacen falta y dónde suelen estar
 
