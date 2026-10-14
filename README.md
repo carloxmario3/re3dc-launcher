@@ -20,7 +20,21 @@ by Capcom.
 Nothing from Capcom, GOG, JuanchoTex HD or TTV is distributed here: the launcher checks your copies by their hashes
 and builds everything on your PC.
 
-## What's new (game 0.2.13 · launcher 0.2.23)
+## What's new (game 0.2.13 · launcher 0.3.0)
+
+- **A step-by-step wizard, one question per screen**, the same on Windows, Linux and the Steam Deck: the language you
+  want to play in → your Resident Evil 3 from GOG → do you want the HD graphics? (with a before/after picture) → where
+  to get the HD file → Spanish voices → characters and models → extras (Jill's room, Boutique, widescreen, random
+  zombies) → review → install → **PLAY** and how to open the RE3DC menu (F9 or START). It finds what you already have,
+  tells you where to download what is missing (with a diagram of GOG's offline installers and the HD download steps)
+  and has a **Look again** button. Errors say what happened and what to do.
+- **To play in English you only need the English GOG copy**, also with the HD (until now the HD also asked for the
+  Spanish one). Playing in Spanish with HD still needs both installers (the HD is converted from the English one).
+- **Works with a controller on Windows too** (XInput: Xbox controllers, ROG Ally and similar), as on the Steam Deck:
+  D-pad or stick to move, A to press, B to go back.
+- It remembers your choices: *Add or change content* starts with everything as you left it.
+
+### Game 0.2.13 · launcher 0.2.23
 
 - **JuanchoTex HD «1.1 fix2» recognized.** The launcher accepts `RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z` (the 7z as the
   author gives it, or its folder) besides 1.1 and 1.0: it tells the version apart by its file names and sizes and says
@@ -124,18 +138,21 @@ signed yet: if SmartScreen warns you, choose *More info → Run anyway*. Each re
 
 ## How it works
 
-Open **RE3DC**. The launcher has a big **PLAY** button at the top and a step-by-step wizard below:
+Open **RE3DC**. The launcher has a big **PLAY** button at the top and a step-by-step wizard (one question per screen;
+mouse, keyboard or controller):
 
-1. **Your Resident Evil 3 from GOG** — found automatically in the usual GOG folders, or choose its folder or its
-   offline installer. English, Spanish or both.
-2. **Optional extras** — the HD textures and videos of *RE3 A.I. Overhaul 1.1 by JuanchoTex HD* (the `.7z` you
+1. **Language** — English, Spanish or both: it tells you which GOG installer each one needs (English only needs the
+   English one, also with the HD).
+2. **Your Resident Evil 3 from GOG** — found automatically in the usual GOG folders or in `Downloads` (the offline
+   installer is enough), or choose it yourself; if it's missing, a diagram shows how to download it from your GOG library.
+3. **Optional extras, one at a time** — the HD textures and videos of *RE3 A.I. Overhaul 1.1 by JuanchoTex HD* (the `.7z` you
    downloaded from the author: 1.1 fix2, 1.1 or 1.0), his *Add-on Castellano* (Doblaje Spain), the Castilian Spanish dub by TTV and REC (`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`, from
    [their site](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/)), and RE3DC's own content.
    **Jill and characters:** *HD Jill (1999)* and *HD characters* are made from your GOG copy; *RE3 (2020) Jill* and
    *RE3 (2020) characters* need your **Steam copy of Resident Evil 3 (2020)**, and *RE1 HD: Jill and characters* your
    **Steam copy of Resident Evil HD REMASTER** (the launcher finds their folders).
-3. **Review** — what will be installed, the disk space it needs and **where** (*Change…* to use another drive).
-4. **Install** — every file is checked; then **PLAY** turns on.
+4. **Review** — what will be installed, the disk space it needs and **where** (*Change…* to use another drive).
+5. **Install** — every file is checked; then **PLAY**, with how to open the RE3DC menu (F9 or START).
 
 The launcher is in English and Spanish (buttons at the top right). Uninstalling removes everything **except your
 saved games**.
@@ -173,7 +190,7 @@ with the title ([`ps5-0.3.4`](../../releases/tag/ps5-0.3.4)), your complete pack
 
 | What | File / folder | Usual place |
 |---|---|---|
-| **Resident Evil 3 from GOG, English** (required, or the Spanish one) | the installed folder (with `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **or** its offline installer `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Downloads` |
+| **Resident Evil 3 from GOG, English** (to play in English: the only one you need, also with the HD; and for the HD in Spanish) | the installed folder (with `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **or** its offline installer `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Downloads` |
 | **Resident Evil 3 from GOG, Spanish** (to play in Spanish) | **easiest:** the offline installer `setup_resident_evil_3_1.0_hotfix4_(spanish)_(86848).exe` + `…-1.bin` (the launcher extracts the Spanish copy, no install needed) **or** a folder installed **choosing «Español»** in the installer (it also has `Rofs16.dat`) | `Downloads` (GOG.com → your library → Resident Evil 3 → offline installers, Spanish) |
 | HD textures | `RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z` (or 1.1, 1.0) | `Downloads` |
 | Spanish add-on (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Downloads` |
@@ -254,7 +271,21 @@ y en la Steam Deck / Linux, en inglés y en español, con texturas HD y doblajes
 Aquí no se reparte nada de Capcom, de GOG, de JuanchoTex HD ni de TTV: el launcher comprueba tus copias por sus hashes
 y lo arma todo en tu PC.
 
-## Novedades (juego 0.2.13 · launcher 0.2.23)
+## Novedades (juego 0.2.13 · launcher 0.3.0)
+
+- **Un asistente paso a paso, una pregunta por pantalla**, el mismo en Windows, Linux y la Steam Deck: el idioma en que
+  quieres jugar → tu Resident Evil 3 de GOG → ¿quieres los gráficos HD? (con una imagen de antes y después) → dónde
+  conseguir el archivo HD → las voces en español → personajes y modelos → extras (habitación de Jill, Boutique, pantalla
+  ancha, zombis aleatorios) → resumen → instalar → **JUGAR** y cómo abrir el menú de RE3DC (F9 o START). Encuentra lo que
+  ya tienes, te dice de dónde bajar lo que falta (con un esquema de los instaladores offline de GOG y los pasos de la
+  descarga del HD) y tiene **Buscar otra vez**. Los errores dicen qué pasó y qué hacer.
+- **Para jugar en inglés basta el GOG en inglés**, también con el HD (hasta ahora el HD pedía además el español). En
+  español con el HD siguen haciendo falta los dos instaladores (el HD se convierte desde el inglés).
+- **Se maneja con mando también en Windows** (XInput: mandos de Xbox, ROG Ally y similares), como en la Steam Deck:
+  cruceta o stick para moverte, A pulsa, B vuelve.
+- Recuerda lo que elegiste: *Añadir o cambiar contenido* empieza con todo como lo dejaste.
+
+### Juego 0.2.13 · launcher 0.2.23
 
 - **La JuanchoTex HD «1.1 fix2», reconocida.** El launcher acepta `RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z` (el 7z tal
   cual lo da el autor, o su carpeta) además de la 1.1 y la 1.0: distingue la versión por los nombres y tamaños de sus
@@ -362,18 +393,21 @@ SmartScreen avisa, «Más información → Ejecutar de todas formas». Cada vers
 
 ## Cómo funciona
 
-Abre **RE3DC**. El launcher tiene arriba un botón grande de **JUGAR** y debajo un asistente paso a paso:
+Abre **RE3DC**. El launcher tiene arriba un botón grande de **JUGAR** y debajo un asistente paso a paso (una pregunta
+por pantalla; ratón, teclado o mando):
 
-1. **Tu Resident Evil 3 de GOG**: lo busca solo en las carpetas habituales de GOG, o eliges su carpeta o su
-   instalador offline. Inglés, español o los dos.
-2. **Mejoras opcionales**: las texturas y vídeos HD de *RE3 A.I. Overhaul 1.1 de JuanchoTex HD* (el `.7z` que bajaste
+1. **Idioma**: inglés, español o los dos; te dice qué instalador de GOG necesita cada uno (en inglés basta el inglés,
+   también con el HD).
+2. **Tu Resident Evil 3 de GOG**: lo busca solo en las carpetas habituales de GOG o en `Descargas` (basta el instalador
+   offline), o lo eliges tú; si falta, un esquema enseña cómo bajarlo de tu biblioteca de GOG.
+3. **Mejoras opcionales, de una en una**: las texturas y vídeos HD de *RE3 A.I. Overhaul 1.1 de JuanchoTex HD* (el `.7z` que bajaste
    del autor: la 1.1 fix2, la 1.1 o la 1.0), su *Add-on Castellano* (Doblaje Spain), el doblaje castellano de TTV y REC (`RE3_DOBLAJEESP_TTVyREC_1_1_PC_GOG.7z`, de
    [su web](https://tiovictor.romhackhispano.org/resident-evil-3-nemesis/descargar/)) y el contenido propio de RE3DC.
    **Jill y personajes:** la *Jill HD (1999)* y los *personajes HD* se hacen desde tu copia de GOG; la *Jill del RE3
    (2020)* y los *personajes del RE3 (2020)* necesitan **tu copia de Steam de Resident Evil 3 (2020)**, y *RE1 HD: Jill y
    personajes*, **tu copia de Steam de Resident Evil HD REMASTER** (el launcher encuentra sus carpetas).
-3. **Resumen**: qué se instala, cuánto espacio hace falta y **dónde** (*Cambiar…* para usar otra unidad).
-4. **Instalar**: se comprueba cada archivo y se activa **JUGAR**.
+4. **Resumen**: qué se instala, cuánto espacio hace falta y **dónde** (*Cambiar…* para usar otra unidad).
+5. **Instalar**: se comprueba cada archivo; luego **JUGAR**, con cómo abrir el menú de RE3DC (F9 o START).
 
 El launcher está en inglés y en español (botones arriba a la derecha). La desinstalación lo borra todo **menos tus
 partidas**.
@@ -413,7 +447,7 @@ título ([`ps5-0.3.4`](../../releases/tag/ps5-0.3.4)), tu paquete completo y el 
 
 | Qué | Archivo / carpeta | Dónde suele estar |
 |---|---|---|
-| **Resident Evil 3 de GOG, inglés** (obligatorio, o el español) | la carpeta instalada (con `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **o** su instalador offline `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Descargas` |
+| **Resident Evil 3 de GOG, inglés** (para jugar en inglés: el único que hace falta, también con el HD; y para el HD en español) | la carpeta instalada (con `ResidentEvil3.exe`, `Rofs1.dat` … `Rofs15.dat`, `zmovie\`) **o** su instalador offline `setup_resident_evil_3_1.0_hotfix4_(86848).exe` + `…-1.bin` | `C:\GOG Games\Resident Evil 3` · `C:\Program Files (x86)\GOG Galaxy\Games\Resident Evil 3` · `Descargas` |
 | **Resident Evil 3 de GOG, español** (para jugar en español) | **lo más fácil:** el instalador offline `setup_resident_evil_3_1.0_hotfix4_(spanish)_(86848).exe` + `…-1.bin` (el launcher saca de él la copia española, sin instalar nada) **o** una carpeta instalada **eligiendo «Español»** en el instalador (trae además `Rofs16.dat`) | `Descargas` (GOG.com → tu biblioteca → Resident Evil 3 → instaladores offline, español) |
 | Texturas HD | `RE3 A.I. OVERHAUL 1.1 fix2 by JTHD.7z` (o la 1.1, la 1.0) | `Descargas` |
 | Addon castellano (Doblaje Spain) | `RE3 ADD-ON CASTELLANO by JTHD.7z` | `Descargas` |
